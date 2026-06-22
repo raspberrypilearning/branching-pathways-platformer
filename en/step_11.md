@@ -72,7 +72,8 @@ The starter project already includes an `Up Down Helper` block, and the **Player
 > forever
 > point towards (mouse-pointer v)
 > +set [x speed v] to (((mouse x) - (x position)) / (10))
-> +end
+> change x by (x speed)
+> end
 > ```
 >
 > If this is too fast or too slow, you can choose a number larger or smaller than `10`.
