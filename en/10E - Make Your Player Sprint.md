@@ -1,14 +1,14 @@
 ## 10E - Make Your Player Sprint
 
-Add a sprint key so the **Player** moves faster while `shift` is held.
+Add a sprint key so the **player** moves faster while `shift` is held.
 
 ## Step 1
 
 > [!TASK]
 >
-> Find the `forever`{:class="block3control"} loop in your **Player** movement script.
+> Find the `forever`{:class="block3control"} loop in your **player** movement script.
 >
-> If your movement uses `move speed`{:class="block3variables"}, make a new variable called `sprint speed` for the **Player** sprite.
+> If your movement uses `move speed`{:class="block3variables"}, make a new variable called `sprint speed` for the **player** sprite.
 >
 > Set `sprint speed`{:class="block3variables"} to a number bigger than `move speed`{:class="block3variables"} in your starting script.
 >
@@ -27,7 +27,7 @@ Add a sprint key so the **Player** moves faster while `shift` is held.
 > ```blocks3
 > forever
 >   ...
-> + if <key [shift v] pressed?> then
+> + if <key (shift v) pressed?> then
 > +   if <(x speed) > (0)> then
 > +     set [x speed v] to (sprint speed)
 > +   end
@@ -46,7 +46,7 @@ Add a sprint key so the **Player** moves faster while `shift` is held.
 > end
 > ```
 >
-> This makes the **Player** speed up while `shift` is held and slow back down when you release it.
+> This makes the **player** speed up while `shift` is held and slow back down when you release it.
 
 ## Step 3
 
@@ -59,7 +59,7 @@ Add a sprint key so the **Player** moves faster while `shift` is held.
 > ```blocks3
 > forever
 >   point towards (mouse-pointer v)
-> + if <key [shift v] pressed?> then
+> + if <key (shift v) pressed?> then
 > +   set [x speed v] to (((mouse x) - (x position)) / (5))
 > + else
 > +   set [x speed v] to (((mouse x) - (x position)) / (10))
@@ -68,10 +68,10 @@ Add a sprint key so the **Player** moves faster while `shift` is held.
 > end
 > ```
 >
-> A smaller divisor makes the **Player** follow the mouse more quickly.
+> A smaller divisor makes the **player** follow the mouse more quickly.
 
 ## Test
 
 > [!TASK]
 >
-> Hold `shift` while moving and check that the **Player** travels faster.
+> Hold `shift` while moving and check that the **player** travels faster.

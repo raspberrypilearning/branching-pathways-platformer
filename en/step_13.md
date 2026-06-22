@@ -6,7 +6,7 @@ Make your **player** sprite jump.
 
 > [!TASK]
 >
-> Select the **Player** sprite and find your movement blocks.
+> Select the **player** sprite and find your movement blocks.
 
 ## Step 2
 

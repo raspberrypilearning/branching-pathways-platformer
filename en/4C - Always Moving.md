@@ -1,12 +1,12 @@
 ## 4C - Always Moving
 
-Make the **Player** keep moving, and use the arrow keys to change direction.
+Make the **player** keep moving, and use the arrow keys to change direction.
 
 ## Step 1
 
 > [!TASK]
 >
-> Select the **Player** sprite in the sprite pane.
+> Select the **player** sprite in the sprite pane.
 
 ## Step 2
 
@@ -16,7 +16,7 @@ Make the **Player** keep moving, and use the arrow keys to change direction.
 >
 > ![The Code tab in Scratch.](images/tab_code.png)
 
-The starter project already includes an `Up Down Helper` block, and the **Player** setup script with these **player** variables:
+The starter project already includes an `Up Down Helper` block, and the **player** setup script with these **player** variables:
 
 `x speed`{:class="block3variables"}, `y speed`{:class="block3variables"}, `gravity`{:class="block3variables"}, `jump strength`{:class="block3variables"}, `move speed`{:class="block3variables"}, `on ground`, `vertical steps`{:class="block3variables"}
 
@@ -28,7 +28,7 @@ The starter project already includes an `Up Down Helper` block, and the **Player
 >
 > ```blocks3
 > when green flag clicked
-> go to x: (100) y: (100)
+> go to x: (-200) y: (-120)
 > +set [x speed v] to (move speed)
 > +forever
 > change x by (x speed)
@@ -43,7 +43,7 @@ The starter project already includes an `Up Down Helper` block, and the **Player
 > 
 > ```blocks3
 > when green flag clicked
-> go to x: (100) y: (100)
+> go to x: (-200) y: (-120)
 > set [x speed v] to (move speed) 
 > forever
 > +if <key (left arrow v) pressed?> then
@@ -64,7 +64,7 @@ The starter project already includes an `Up Down Helper` block, and the **Player
 > 
 > ```blocks3
 > when green flag clicked
-> go to x: (100) y: (100)
+> go to x: (-200) y: (-120)
 > set [x speed v] to (move speed) 
 > forever
 > if <key (left arrow v) pressed?> then
@@ -83,7 +83,7 @@ The starter project already includes an `Up Down Helper` block, and the **Player
 
 > [!TASK]
 >
-> Click the green flag and check that the **Player** starts moving.
+> Click the green flag and check that the **player** starts moving.
 >
 > Press the arrow keys to change direction.
 >

@@ -36,26 +36,26 @@ Place collectables exactly where you want the player to find them.
 > when green flag clicked
 > +go to x: (-4) y: (100)
 > +show
-> +create clone of [myself v]
+> +create clone of (myself v)
 > ```
 
 ## Step 4
 
 > [!TASK]
 >
-> Add more `go to x: y:`{:class="block3motion"} and `create clone of [myself v]`{:class="block3control"} blocks for each extra collectable.
+> Add more `go to x: y:`{:class="block3motion"} and `create clone of (myself v)`{:class="block3control"} blocks for each extra collectable.
 >
-> Put each clone somewhere the **Player** can reach.
+> Put each clone somewhere the **player** can reach.
 >
 > ```blocks3
 > when green flag clicked
 > go to x: (-4) y: (100)
 > show
-> create clone of [myself v]
+> create clone of (myself v)
 > +go to x: (160) y: (100)
-> +create clone of [myself v]
+> +create clone of (myself v)
 > +go to x: (-170) y: (100)
-> +create clone of [myself v]
+> +create clone of (myself v)
 > ```
 
 ## Step 5
@@ -68,11 +68,11 @@ Place collectables exactly where you want the player to find them.
 > when green flag clicked
 > go to x: (-4) y: (100)
 > show
-> create clone of [myself v]
+> create clone of (myself v)
 > go to x: (160) y: (100)
-> create clone of [myself v]
+> create clone of (myself v)
 > go to x: (-170) y: (100)
-> create clone of [myself v]
+> create clone of (myself v)
 > +go to [front v] layer
 > +hide
 > ```
@@ -91,26 +91,26 @@ Place collectables exactly where you want the player to find them.
 
 > [!TASK]
 >
-> Add `show`{:class="block3looks"} and `go to [front v] layer`{:class="block3looks"} so each clone appears in front of the level.
+> Add `go to [front v] layer`{:class="block3looks"} and `show`{:class="block3looks"} so each clone appears in front of the level.
 >
 > ```blocks3
 > when I start as a clone
-> +show
 > +go to [front v] layer
+> +show
 > ```
 
 ## Step 8
 
 > [!TASK]
 >
-> Add a `forever`{:class="block3control"} loop with an `if`{:class="block3control"} block that checks whether the collectable clone is touching the **Player**.
+> Add a `forever`{:class="block3control"} loop with an `if`{:class="block3control"} block that checks whether the collectable clone is touching the **player**.
 >
 > ```blocks3
 > when I start as a clone
-> show
 > go to [front v] layer
+> show
 > +forever
-> +  if <touching [Player v]?> then
+> +  if <touching [player v]?> then
 > +  end
 > +end
 > ```
@@ -123,10 +123,10 @@ Place collectables exactly where you want the player to find them.
 >
 > ```blocks3
 > when I start as a clone
-> show
 > go to [front v] layer
+> show
 > forever
->   if <touching [Player v]?> then
+>   if <touching [player v]?> then
 > +    change [Score v] by (1)
 > +    hide
 >   end

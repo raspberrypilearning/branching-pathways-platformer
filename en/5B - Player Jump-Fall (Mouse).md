@@ -6,7 +6,7 @@ Make your **player** sprite jump.
 
 > [!TASK]
 >
-> Select the **Player** sprite and find the mouse movement blocks you made earlier.
+> Select the **player** sprite and find the mouse movement blocks you made earlier.
 
 ## Step 2
 
@@ -16,7 +16,7 @@ Make your **player** sprite jump.
 >
 > ```blocks3
 > when green flag clicked
-> go to x: (100) y: (100)
+> go to x: (-200) y: (-120)
 > forever
 > point towards (mouse-pointer v)
 > set [x speed v] to (((mouse x) - (x position)) / (10))
@@ -34,7 +34,7 @@ Make your **player** sprite jump.
 >
 > ```blocks3
 > when green flag clicked
-> go to x: (100) y: (100)
+> go to x: (-200) y: (-120)
 > forever
 > point towards (mouse-pointer v)
 > set [x speed v] to (((mouse x) - (x position)) / (10))
@@ -61,7 +61,7 @@ Make your **player** sprite jump.
 >
 > ```blocks3
 > when green flag clicked
-> go to x: (100) y: (100)
+> go to x: (-200) y: (-120)
 > forever
 > point towards (mouse-pointer v)
 > set [x speed v] to (((mouse x) - (x position)) / (10))

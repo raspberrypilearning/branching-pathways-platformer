@@ -1,12 +1,12 @@
 ## 4B - Mouse Move
 
-Make the **Player** follow the mouse on the x-axis.
+Make the **player** follow the mouse on the x-axis.
 
 ## Step 1
 
 > [!TASK]
 >
-> Select the **Player** sprite in the sprite pane.
+> Select the **player** sprite in the sprite pane.
 
 ## Step 2
 
@@ -16,7 +16,7 @@ Make the **Player** follow the mouse on the x-axis.
 >
 > ![The Code tab in Scratch.](images/tab_code.png)
 
-The starter project already includes an `Up Down Helper` block, and the **Player** setup script with these **player** variables:
+The starter project already includes an `Up Down Helper` block, and the **player** setup script with these **player** variables:
 
 `x speed`{:class="block3variables"}, `y speed`{:class="block3variables"}, `gravity`{:class="block3variables"}, `jump strength`{:class="block3variables"}, `move speed`{:class="block3variables"}, `on ground`, `vertical steps`{:class="block3variables"}
 
@@ -28,7 +28,7 @@ The starter project already includes an `Up Down Helper` block, and the **Player
 >
 > ```blocks3
 > when green flag clicked
-> go to x: (100) y: (100)
+> go to x: (-200) y: (-120)
 > +forever
 > +point towards (mouse-pointer v)
 > +end
@@ -42,7 +42,7 @@ The starter project already includes an `Up Down Helper` block, and the **Player
 >
 > ```blocks3
 > when green flag clicked
-> go to x: (100) y: (100)
+> go to x: (-200) y: (-120)
 > forever
 > point towards (mouse-pointer v)
 > +set [x speed v] to ((mouse x) - (x position))
@@ -68,7 +68,7 @@ The starter project already includes an `Up Down Helper` block, and the **Player
 >
 > ```blocks3
 > when green flag clicked
-> go to x: (100) y: (100)
+> go to x: (-200) y: (-120)
 > forever
 > point towards (mouse-pointer v)
 > +set [x speed v] to (((mouse x) - (x position)) / (10))

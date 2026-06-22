@@ -1,6 +1,6 @@
 ## 3B - Draw foreground platforms
 
-Draw visible foreground platforms in one **platform** sprite so the **Player** has places to stand and jump.
+Draw visible foreground platforms in one **platform** sprite so the **player** has places to stand and jump.
 
 ## Step 1
 
@@ -16,7 +16,7 @@ Draw visible foreground platforms in one **platform** sprite so the **Player** h
 >
 > In the **platform** sprite, draw a block that spans the entire lower edge of the Stage.
 >
-> This is the floor. It gives the **Player** solid ground to stand on and stops them falling off the bottom of the Stage.
+> This is the floor. It gives the **player** solid ground to stand on and stops them falling off the bottom of the Stage.
 >
 > Give the floor a straight, horizontal top.
 
@@ -26,11 +26,15 @@ Draw visible foreground platforms in one **platform** sprite so the **Player** h
 >
 > Draw the foreground platforms in the **platform** sprite.
 >
-> The place where the **Player** stands must have a straight, horizontal top.
+> The place where the **player** stands must have a straight, horizontal top.
 >
-> Draw every platform for the level in this one sprite. You can also copy and paste platform images into the paint editor, then arrange them where you want them.
+> Draw every platform for the level in this one sprite.
 >
-> If you paste an image, crop or delete any empty pixels around it so the artwork fits tightly around the platform.
+> > [!TIP]
+> >
+> > You can also copy and paste platform images into the paint editor, then arrange them where you want them.
+> >
+> > If you paste an image, crop or delete any empty pixels around it so the artwork fits tightly around the platform.
 
 ## Step 4
 
@@ -38,7 +42,7 @@ Draw visible foreground platforms in one **platform** sprite so the **Player** h
 >
 > In the sprite pane, change the sprite name to **platform**.
 >
-> Use this exact spelling so later steps can check whether the **Player** is touching the **platform** sprite.
+> Use this exact spelling so later steps can check whether the **player** is touching the **platform** sprite.
 
 ## Step 5
 
@@ -46,7 +50,7 @@ Draw visible foreground platforms in one **platform** sprite so the **Player** h
 >
 > Put the **platform** sprite in the centre of the Stage.
 >
-> The foreground platform drawings should match the places where you want the **Player** to stand.
+> The foreground platform drawings should match the places where you want the **player** to stand.
 
 ## Step 6
 
@@ -86,4 +90,4 @@ Draw visible foreground platforms in one **platform** sprite so the **Player** h
 >
 > Click the green flag and check that the foreground platforms appear in front of the backdrop in the places you chose.
 >
-> The **Player** should be able to stand or jump on each foreground platform.
+> The **player** should be able to stand or jump on each foreground platform.

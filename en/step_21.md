@@ -6,7 +6,7 @@ Make the player win when they touch the **Exit** sprite.
 
 > [!TASK]
 >
-> Select the **Player** sprite in the sprite pane.
+> Select the **player** sprite in the sprite pane.
 
 ## Step 2
 
@@ -34,7 +34,7 @@ Make the player win when they touch the **Exit** sprite.
 
 > [!TASK]
 >
-> Inside the `forever`{:class="block3control"} loop, add an `if`{:class="block3control"} block that checks whether the **Player** is touching the **Exit** sprite.
+> Inside the `forever`{:class="block3control"} loop, add an `if`{:class="block3control"} block that checks whether the **player** is touching the **Exit** sprite.
 >
 > ```blocks3
 > when green flag clicked
@@ -87,4 +87,4 @@ Make the player win when they touch the **Exit** sprite.
 
 > [!TASK]
 >
-> Move the **Player** to the **Exit** and check that the win message appears and the game stops.
+> Move the **player** to the **Exit** and check that the win message appears and the game stops.

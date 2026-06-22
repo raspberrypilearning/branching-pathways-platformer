@@ -1,12 +1,12 @@
 ## 4A - Keys
 
-Add keyboard controls so the **Player** can run and jump.
+Add keyboard controls so the **player** can run and jump.
 
 ## Step 1
 
 > [!TASK]
 >
-> Select the **Player** sprite in the sprite pane.
+> Select the **player** sprite in the sprite pane.
 
 ## Step 2
 
@@ -16,7 +16,7 @@ Add keyboard controls so the **Player** can run and jump.
 >
 > ![The Code tab in Scratch.](images/tab_code.png)
 
-The starter project already includes an `Up Down Helper` block, and the **Player** setup script with these **player** variables:
+The starter project already includes an `Up Down Helper` block, and the **player** setup script with these variables:
 
 `x speed`{:class="block3variables"}, `y speed`{:class="block3variables"}, `gravity`{:class="block3variables"}, `jump strength`{:class="block3variables"}, `move speed`{:class="block3variables"}, `on ground`, `vertical steps`{:class="block3variables"}
 
@@ -28,7 +28,7 @@ The starter project already includes an `Up Down Helper` block, and the **Player
 >
 > ```blocks3
 > when green flag clicked
-> go to x: (100) y: (100)
+> go to x: (-200) y: (-120)
 > +forever
 > +  set [x speed v] to (0)
 > +end
@@ -40,14 +40,14 @@ The starter project already includes an `Up Down Helper` block, and the **Player
 >
 > Inside the `forever`{:class="block3control"} loop, add an `if`{:class="block3control"} block for moving right.
 >
-> If the `right arrow` key is pressed, set `x speed`{:class="block3variables"} to `move speed` and point the **Player** right.
+> If the `right arrow` key is pressed, set `x speed`{:class="block3variables"} to `move speed` and point the **player** right.
 >
 > ```blocks3
 > when green flag clicked
 > forever
 >   set [x speed v] to (0)
 >
-> +  if <key [right arrow v] pressed?> then
+> +  if <key (right arrow v) pressed?> then
 > +    set [x speed v] to (move speed)
 > +    point in direction (90)
 > +  end
@@ -60,19 +60,19 @@ The starter project already includes an `Up Down Helper` block, and the **Player
 >
 > Add another `if`{:class="block3control"} block for moving left.
 >
-> If the `left arrow` key is pressed, set `x speed`{:class="block3variables"} to `0 - move speed` and point the **Player** left.
+> If the `left arrow` key is pressed, set `x speed`{:class="block3variables"} to `0 - move speed` and point the **player** left.
 >
 > ```blocks3
 > when green flag clicked
 > forever
 >   set [x speed v] to (0)
 >
->   if <key [right arrow v] pressed?> then
+>   if <key (right arrow v) pressed?> then
 >     set [x speed v] to (move speed)
 >     point in direction (90)
 >   end
 >
-> +  if <key [left arrow v] pressed?> then
+> +  if <key (left arrow v) pressed?> then
 > +    set [x speed v] to ((0) - (move speed))
 > +    point in direction (-90)
 > +  end
@@ -85,19 +85,19 @@ The starter project already includes an `Up Down Helper` block, and the **Player
 >
 > At the bottom of the `forever`{:class="block3control"} loop, add `change x by (x speed)`{:class="block3motion"}.
 >
-> This moves the **Player** by the speed chosen by the key presses.
+> This moves the **player** by the speed chosen by the key presses.
 >
 > ```blocks3
 > when green flag clicked
 > forever
 >   set [x speed v] to (0)
 >
->   if <key [right arrow v] pressed?> then
+>   if <key (right arrow v) pressed?> then
 >     set [x speed v] to (move speed)
 >     point in direction (90)
 >   end
 >
->   if <key [left arrow v] pressed?> then
+>   if <key (left arrow v) pressed?> then
 >     set [x speed v] to ((0) - (move speed))
 >     point in direction (-90)
 >   end
@@ -112,4 +112,4 @@ The starter project already includes an `Up Down Helper` block, and the **Player
 >
 > Click the green flag and use the arrow keys to move left and right.
 >
-> If the **Player** moves too quickly or too slowly, change `move speed` in the starter setup script.
+> If the **player** moves too quickly or too slowly, change `move speed` in the starter setup script.

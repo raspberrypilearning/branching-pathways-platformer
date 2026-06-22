@@ -16,7 +16,7 @@ To draw fancier platforms and montage other images, you can use an editor on you
 >
 > Draw a block that spans the entire lower edge of your image, along the bottom of the Stage.
 >
-> This is the floor. It stops the **Player** falling off the bottom of the Stage.
+> This is the floor. It stops the **player** falling off the bottom of the Stage.
 
 ## Step 3
 
@@ -48,6 +48,6 @@ To draw fancier platforms and montage other images, you can use an editor on you
 >
 > > [!TIP]
 > >
-> > Make sure the top of each platform is completely flat. If the top edge has bumps or stray pixels, the **Player** can catch on them and stop moving smoothly.
+> > Make sure the top of each platform is completely flat. If the top edge has bumps or stray pixels, the **player** can catch on them and stop moving smoothly.
 > >
 > > Use the eraser to flatten the top edge, or crop your uploaded image so the top is flat.

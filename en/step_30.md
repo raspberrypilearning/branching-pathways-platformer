@@ -1,12 +1,12 @@
 ## 10D - Animate your player
 
-Switch costumes while the **Player** moves so the character feels more alive.
+Switch costumes while the **player** moves so the character feels more alive.
 
 ## Step 1
 
 > [!TASK]
 >
-> Select the **Player** sprite and open the **Costumes** tab.
+> Select the **player** sprite and open the **Costumes** tab.
 >
 > Check that the sprite has more than one costume. You can make one by duplicating the existing costume and editing it to look slightly different, or making a new one:
 >
@@ -36,4 +36,4 @@ Switch costumes while the **Player** moves so the character feels more alive.
 
 > [!TASK]
 >
-> Move the **Player** and check that the costume changes while it travels.
+> Move the **player** and check that the costume changes while it travels.

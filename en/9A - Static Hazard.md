@@ -23,7 +23,7 @@ Add spikes, lava or another non-moving hazard for the player to avoid.
 
 > [!TASK]
 >
-> Click your **Player** sprite, and add these blocks:
+> Click your **player** sprite, and add these blocks:
 >
 > ```blocks3
 > when green flag clicked
@@ -38,15 +38,15 @@ Add spikes, lava or another non-moving hazard for the player to avoid.
 
 > [!TASK]
 >
-> Add the same position you used in the **Player** starting script into `go to x: y:`{:class="block3motion"}.
+> Add the same position you used in the **player** starting script into `go to x: y:`{:class="block3motion"}.
 >
-> This resets the **Player** instead of stopping the game.
+> This resets the **player** instead of stopping the game.
 
 ## Test
 
 > [!TASK]
 >
-> Touch the spikes and check that the **Player** goes back to the start position.
+> Touch the spikes and check that the **player** goes back to the start position.
 
 ## Add More Hazards
 

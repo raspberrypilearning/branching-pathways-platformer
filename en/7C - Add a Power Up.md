@@ -1,6 +1,6 @@
 ## 7C - Add a Power Up
 
-Add a new sprite that gives the **Player** extra speed or a higher jump when they touch it.
+Add a new sprite that gives the **player** extra speed or a higher jump when they touch it.
 
 ## Step 1
 
@@ -45,7 +45,7 @@ Add a new sprite that gives the **Player** extra speed or a higher jump when the
 
 > [!TASK]
 >
-> Add a `forever`{:class="block3control"} loop with an `if`{:class="block3control"} block that checks whether the **Power Up** is touching the **Player**.
+> Add a `forever`{:class="block3control"} loop with an `if`{:class="block3control"} block that checks whether the **Power Up** is touching the **player**.
 >
 > ```blocks3
 > when green flag clicked
@@ -53,7 +53,7 @@ Add a new sprite that gives the **Player** extra speed or a higher jump when the
 > show
 > go to [front v] layer
 > +forever
-> +  if <touching [Player v]?> then
+> +  if <touching [player v]?> then
 > +  end
 > +end
 > ```
@@ -70,7 +70,7 @@ Add a new sprite that gives the **Player** extra speed or a higher jump when the
 > show
 > go to [front v] layer
 > forever
->   if <touching [Player v]?> then
+>   if <touching [player v]?> then
 > +    broadcast [power up v]
 > +    hide
 > +    stop [this script v]
@@ -82,13 +82,13 @@ Add a new sprite that gives the **Player** extra speed or a higher jump when the
 
 > [!TASK]
 >
-> Select the **Player** sprite and add a new script that starts when it receives the `power up`{:class="block3events"} message.
+> Select the **player** sprite and add a new script that starts when it receives the `power up`{:class="block3events"} message.
 >
-> The movement uses `move speed`{:class="block3variables"} to control how fast the **Player** moves and `jump strength`{:class="block3variables"} to control jump height.
+> The movement uses `move speed`{:class="block3variables"} to control how fast the **player** moves and `jump strength`{:class="block3variables"} to control jump height.
 >
 > Choose one effect for your power-up. The effect will last for `5` seconds.
 >
-> To make the **Player** move faster, increase `move speed`{:class="block3variables"}:
+> To make the **player** move faster, increase `move speed`{:class="block3variables"}:
 >
 > ```blocks3
 > +when I receive [power up v]
@@ -97,7 +97,7 @@ Add a new sprite that gives the **Player** extra speed or a higher jump when the
 > +change [move speed v] by (-2)
 > ```
 >
-> To make the **Player** jump higher, increase `jump strength`{:class="block3variables"}:
+> To make the **player** jump higher, increase `jump strength`{:class="block3variables"}:
 >
 > ```blocks3
 > +when I receive [power up v]
@@ -112,6 +112,6 @@ Add a new sprite that gives the **Player** extra speed or a higher jump when the
 
 > [!TASK]
 >
-> Click the green flag and touch the **Power Up** with your **Player**.
+> Click the green flag and touch the **Power Up** with your **player**.
 >
-> Check that the power-up disappears and the **Player** moves faster or jumps higher for `5` seconds, then goes back to normal.
+> Check that the power-up disappears and the **player** moves faster or jumps higher for `5` seconds, then goes back to normal.

@@ -32,7 +32,7 @@ Create a second platform layout and switch to it when the player meets the win c
 >
 > Edit the `level 2` costume to create a new platform layout.
 >
-> Keep the top edges straight and horizontal where the **Player** needs to stand.
+> Keep the top edges straight and horizontal where the **player** needs to stand.
 >
 > If you used hidden platform lines in `Add platforms to match your backdrop`, make the lines visible while you edit, then make them transparent again when you are finished.
 

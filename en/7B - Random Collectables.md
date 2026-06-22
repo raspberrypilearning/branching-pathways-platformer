@@ -210,7 +210,7 @@ Make collectables drop from random positions and land on the **platform** sprite
 >     hide
 >   end
 > +  set [last_x v] to (x position)
-> +  create clone of [myself v]
+> +  create clone of (myself v)
 > end
 > ```
 
@@ -243,7 +243,7 @@ Make collectables drop from random positions and land on the **platform** sprite
 
 > [!TASK]
 >
-> Add a `forever`{:class="block3control"} loop with an `if`{:class="block3control"} block that checks whether the collectable clone is touching the **Player**.
+> Add a `forever`{:class="block3control"} loop with an `if`{:class="block3control"} block that checks whether the collectable clone is touching the **player**.
 >
 > ```blocks3
 > when I start as a clone
@@ -252,7 +252,7 @@ Make collectables drop from random positions and land on the **platform** sprite
 >   change y by (-10)
 > end
 > +forever
-> +  if <touching [Player v]?> then
+> +  if <touching [player v]?> then
 > +  end
 > +end
 > ```
@@ -270,7 +270,7 @@ Make collectables drop from random positions and land on the **platform** sprite
 >   change y by (-10)
 > end
 > forever
->   if <touching [Player v]?> then
+>   if <touching [player v]?> then
 > +    change [Score v] by (1)
 > +    hide
 >   end

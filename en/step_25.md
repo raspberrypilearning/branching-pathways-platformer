@@ -46,7 +46,7 @@ Add a hazard like spikes that move up and down to create danger.
 
 > [!TASK]
 >
-> Click on the **Player** sprite and add these blocks:
+> Click on the **player** sprite and add these blocks:
 >
 > ```blocks3
 > when green flag clicked
@@ -61,12 +61,12 @@ Add a hazard like spikes that move up and down to create danger.
 
 > [!TASK]
 >
-> Add the same position you used in the **Player** starting script into `go to x: y:`{:class="block3motion"}.
+> Add the same position you used in the **player** starting script into `go to x: y:`{:class="block3motion"}.
 >
-> This resets the **Player** instead of stopping the game.
+> This resets the **player** instead of stopping the game.
 
 ## Test
 
 > [!TASK]
 >
-> Click the green flag and check that the **Hazard** moves up and down and sends the **Player** back to the start position on contact.
+> Click the green flag and check that the **Hazard** moves up and down and sends the **player** back to the start position on contact.

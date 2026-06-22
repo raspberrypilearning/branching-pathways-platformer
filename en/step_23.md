@@ -41,7 +41,7 @@ Make the player win only after collecting a key and reaching the **Exit**.
 > when green flag clicked
 > show
 > forever
->   if <touching [Player v]?> then
+>   if <touching [player v]?> then
 >     set [has key v] to [1]
 >     hide
 >   end
@@ -57,7 +57,7 @@ Make the player win only after collecting a key and reaching the **Exit**.
 > ```blocks3
 > when green flag clicked
 > forever
->   if <touching [Player v]?> then
+>   if <touching [player v]?> then
 >   end
 > end
 > ```
@@ -71,7 +71,7 @@ Make the player win only after collecting a key and reaching the **Exit**.
 > ```blocks3
 > when green flag clicked
 > forever
->   if <touching [Player v]?> then
+>   if <touching [player v]?> then
 > +    if <(has key) = [1]> then
 > +    else
 > +    end
@@ -90,7 +90,7 @@ Make the player win only after collecting a key and reaching the **Exit**.
 > ```blocks3
 > when green flag clicked
 > forever
->   if <touching [Player v]?> then
+>   if <touching [player v]?> then
 >     if <(has key) = [1]> then
 > +      broadcast [win v]
 >     else
