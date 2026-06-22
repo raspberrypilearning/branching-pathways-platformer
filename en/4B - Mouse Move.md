@@ -64,7 +64,7 @@ The starter project already includes an `Up Down Helper` block, and the **Player
 
 > [!TASK]
 >
-> Slow the sprite down by dividing its speed by `10`
+> Slow the sprite down by dividing its speed by `10`:
 >
 > ```blocks3
 > when green flag clicked

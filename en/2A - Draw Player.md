@@ -24,7 +24,7 @@ The **Player** sprite already has code that handles gravity, jumping, and fallin
 
 ## Step 3
 
->![TASK]
+> ![TASK]
 >
 > Delete the **Cat-a** and **Cat-b** costumes.
 >
