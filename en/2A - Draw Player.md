@@ -8,12 +8,18 @@ The **Player** sprite already has code that handles gravity, jumping, and fallin
 
 > [!TASK]
 >
+> Open the [Starter project](https://scratch.mit.edu/projects/1331945689/editor/){:target="_blank"}.
+
+## Step 2
+
+> [!TASK]
+>
 > Select the **Player** sprite in the sprite pane.
 >
 > ![Scratch Cat sprite selected in the sprite pain](images/player_sprite.png)
 >
 
-## Step 2
+## Step 3
 
 > [!TASK]
 >
@@ -22,7 +28,7 @@ The **Player** sprite already has code that handles gravity, jumping, and fallin
 > ![The Costumes tab in Scratch.](images/tab_costumes.png)
 
 
-## Step 3
+## Step 4
 
 > ![TASK]
 >
@@ -31,7 +37,7 @@ The **Player** sprite already has code that handles gravity, jumping, and fallin
 > ![Two Scratch cat costumes in costumes pane](images/cat_costumes.png)
 >
 
-## Step 4
+## Step 5
 
 > [!TASK]
 >
@@ -39,7 +45,7 @@ The **Player** sprite already has code that handles gravity, jumping, and fallin
 >
 > ![The Paint option in the costume menu.](images/costume_paint.png)
 
-## Step 5
+## Step 6
 
 > [!TASK]
 >
@@ -47,13 +53,13 @@ The **Player** sprite already has code that handles gravity, jumping, and fallin
 >
 > Use a clear outline and colours that stand out from your backdrop. Keep the design easy to recognise when it is small on the Stage.
 
-## Step 6
+## Step 7
 
 > [!TASK]
 >
 > Check that your costume is facing sideways or is easy to turn sideways later. A platformer player usually moves left and right, so a side-on character will be easier to animate.
 
-## Step 7
+## Step 8
 
 > [!TASK]
 >
@@ -62,6 +68,10 @@ The **Player** sprite already has code that handles gravity, jumping, and fallin
 > when flag clicked
 > go to x: (100) y: (100)
 > ```
+>
+> > [!TIP]
+> >
+> > Place the **Player** a little above the floor so it falls a short distance onto the start point. If the **Player** starts inside the floor sprite, even by a tiny bit, the game can go wonky.
 
 ## Test
 

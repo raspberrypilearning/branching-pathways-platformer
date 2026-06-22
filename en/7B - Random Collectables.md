@@ -1,6 +1,6 @@
 ## 7B - Random Collectables
 
-Make collectables drop from random positions and land on the **Platform** sprite.
+Make collectables drop from random positions and land on the **platform** sprite.
 
 ## Step 1
 
@@ -102,7 +102,7 @@ Make collectables drop from random positions and land on the **Platform** sprite
 >
 > Use random y positions so collectables can start below higher platforms and land on lower ones.
 >
-> The original needs to show itself so the `touching Platform?`{:class="block3sensing"} block can check its position.
+> The original needs to show itself so the `touching platform?`{:class="block3sensing"} block can check its position.
 >
 > ```blocks3
 > when green flag clicked
@@ -127,7 +127,7 @@ Make collectables drop from random positions and land on the **Platform** sprite
 >
 > Add checks that set `position_ok`{:class="block3variables"} back to `0`{:class="block3variables"} if the random position is not suitable.
 >
-> Reject the position if it starts touching the **Platform** or if it is too close to the previous collectable.
+> Reject the position if it starts touching the **platform** or if it is too close to the previous collectable.
 >
 > ```blocks3
 > when green flag clicked
@@ -142,7 +142,7 @@ Make collectables drop from random positions and land on the **Platform** sprite
 >     go to x: (pick random (-200) to (200)) y: (pick random (-120) to (160))
 >     show
 >     set [position_ok v] to (1)
-> +    if <touching [Platform v]?> then
+> +    if <touching [platform v]?> then
 > +      set [position_ok v] to (0)
 > +    end
 > +    if <not <<(x position) > ((last_x) + (min_distance))> or <(x position) < ((last_x) - (min_distance))>>> then
@@ -171,7 +171,7 @@ Make collectables drop from random positions and land on the **Platform** sprite
 >     go to x: (pick random (-200) to (200)) y: (pick random (-120) to (160))
 >     show
 >     set [position_ok v] to (1)
->     if <touching [Platform v]?> then
+>     if <touching [platform v]?> then
 >       set [position_ok v] to (0)
 >     end
 >     if <not <<(x position) > ((last_x) + (min_distance))> or <(x position) < ((last_x) - (min_distance))>>> then
@@ -201,7 +201,7 @@ Make collectables drop from random positions and land on the **Platform** sprite
 >     go to x: (pick random (-200) to (200)) y: (pick random (-120) to (160))
 >     show
 >     set [position_ok v] to (1)
->     if <touching [Platform v]?> then
+>     if <touching [platform v]?> then
 >       set [position_ok v] to (0)
 >     end
 >     if <not <<(x position) > ((last_x) + (min_distance))> or <(x position) < ((last_x) - (min_distance))>>> then
@@ -228,13 +228,13 @@ Make collectables drop from random positions and land on the **Platform** sprite
 
 > [!TASK]
 >
-> Add `show`{:class="block3looks"} and a `repeat until`{:class="block3control"} loop that makes the clone fall straight down until it touches the **Platform** sprite.
+> Add `show`{:class="block3looks"} and a `repeat until`{:class="block3control"} loop that makes the clone fall straight down until it touches the **platform** sprite.
 >
 >
 > ```blocks3
 > when I start as a clone
 > +show
-> +repeat until <touching [Platform v]?>
+> +repeat until <touching [platform v]?>
 > +  change y by (-10)
 > +end
 > ```
@@ -248,7 +248,7 @@ Make collectables drop from random positions and land on the **Platform** sprite
 > ```blocks3
 > when I start as a clone
 > show
-> repeat until <touching [Platform v]?>
+> repeat until <touching [platform v]?>
 >   change y by (-10)
 > end
 > +forever
@@ -266,7 +266,7 @@ Make collectables drop from random positions and land on the **Platform** sprite
 > ```blocks3
 > when I start as a clone
 > show
-> repeat until <touching [Platform v]?>
+> repeat until <touching [platform v]?>
 >   change y by (-10)
 > end
 > forever
@@ -283,6 +283,6 @@ Make collectables drop from random positions and land on the **Platform** sprite
 >
 > Click the green flag and check that collectables drop from random positions, spaced apart from each other.
 >
-> Check that each collectable starts in the air, drops, and stops when it touches the **Platform** sprite.
+> Check that each collectable starts in the air, drops, and stops when it touches the **platform** sprite.
 >
 > Touch a collectable and check that it disappears and adds `1` to `Score`.

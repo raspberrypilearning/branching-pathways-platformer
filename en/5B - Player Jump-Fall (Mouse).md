@@ -6,7 +6,7 @@ Make your **player** sprite jump.
 
 > [!TASK]
 >
-> Select the **Player** sprite and find your movement blocks.
+> Select the **Player** sprite and find the mouse movement blocks you made earlier.
 
 ## Step 2
 
@@ -15,9 +15,15 @@ Make your **player** sprite jump.
 > Add in a new `if`{:class="block3control"} block, below the others, but above the `change x by ()`{:class="block3motion"} block.
 >
 > ```blocks3
+> when green flag clicked
+> go to x: (100) y: (100)
+> forever
+> point towards (mouse-pointer v)
+> set [x speed v] to (((mouse x) - (x position)) / (10))
 > +if <> then
-> end
+> +end
 > change x by (x speed)
+> end
 > ```
 
 ## Step 3
@@ -27,10 +33,16 @@ Make your **player** sprite jump.
 > Detect mouse clicks in `if`{:class="block3control"} and then change the `y speed`{:class="block3variables"} of the **player**.
 >
 > ```blocks3
+> when green flag clicked
+> go to x: (100) y: (100)
+> forever
+> point towards (mouse-pointer v)
+> set [x speed v] to (((mouse x) - (x position)) / (10))
 > +if <mouse down?> then
-> set [y speed v] to (jump strength)
+> +set [y speed v] to (jump strength)
 > end
 > change x by (x speed)
+> end
 > ```
 
 ## Test
@@ -48,10 +60,16 @@ Make your **player** sprite jump.
 > If you don't want to enable double-jumps, then jumping should only work when the sprite is on the ground. There's an `on ground`{:class="blocks3variables"} to detect this.
 >
 > ```blocks3
-> + if <<mouse down?> and <(on ground) = (1)>> then
+> when green flag clicked
+> go to x: (100) y: (100)
+> forever
+> point towards (mouse-pointer v)
+> set [x speed v] to (((mouse x) - (x position)) / (10))
+> +if <<mouse down?> and <(on ground) = (1)>> then
 > set [y speed v] to (jump strength)
 > end
 > change x by (x speed)
+> end
 > ```
 
 ## Test
@@ -70,3 +88,13 @@ Make your **player** sprite jump.
 > set [gravity v] to (-1)
 > set [jump strength v] to (15)
 > ```
+
+## Test
+
+> [!TASK]
+>
+> Click the green flag and test your jump height.
+>
+> Make sure the **player** can jump high enough to land on the platforms above, but not so high that it shoots off the top of the Stage.
+>
+> Adjust the `jump strength`{:class="block3variables"} and `gravity`{:class="block3variables"} variables until the **player** can move between all of your platforms properly.

@@ -7,6 +7,12 @@ The **Player** sprite already has code that handles gravity, jumping, and fallin
 
 ## Step 1
 
+> [!TASK]
+>
+> Open the [Starter project](https://scratch.mit.edu/projects/1331945689/editor/){:target="_blank"}.
+
+## Step 2
+
 Make sure you already have an image you want to use saved onto your computer.
 
 > [!TIP]
@@ -18,7 +24,7 @@ Make sure you already have an image you want to use saved onto your computer.
 >
 > [![Creature player sprite preview](images/example-sprite-player-creature.png){:width="300px"}](images/example-sprite-player-creature.png)
 
-## Step 2
+## Step 3
 
 > [!TASK]
 >
@@ -26,7 +32,7 @@ Make sure you already have an image you want to use saved onto your computer.
 >
 > ![Scratch Cat sprite selected in the sprite pain](images/player_sprite.png)
 
-## Step 3
+## Step 4
 
 > [!TASK]
 >
@@ -34,7 +40,7 @@ Make sure you already have an image you want to use saved onto your computer.
 >
 > ![The Costumes tab in Scratch.](images/tab_costumes.png)
 
-## Step 4
+## Step 5
 
 >![TASK]
 >
@@ -43,19 +49,19 @@ Make sure you already have an image you want to use saved onto your computer.
 > ![Two Scratch cat costumes in costumes pane](images/cat_costumes.png)
 >
 
-## Step 5
+## Step 6
 
 > [!TASK]
 >
 > Open the costume menu and choose the **Upload Costume** icon.
 
-## Step 6
+## Step 7
 
 > [!TASK]
 >
 > Select your player image from your computer. Scratch will add it as a new costume for the **Player** sprite.
 
-## Step 7
+## Step 8
 
 > [!TASK]
 >
@@ -64,6 +70,10 @@ Make sure you already have an image you want to use saved onto your computer.
 > when flag clicked
 > go to x: (100) y: (100)
 > ```
+>
+> > [!TIP]
+> >
+> > Place the **Player** a little above the floor so it falls a short distance onto the start point. If the **Player** starts inside the floor sprite, even by a tiny bit, the game can go wonky.
 
 ## Test
 

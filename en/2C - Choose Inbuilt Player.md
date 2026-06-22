@@ -8,11 +8,17 @@ The **Player** sprite already has code that handles gravity, jumping, and fallin
 
 > [!TASK]
 >
+> Open the [Starter project](https://scratch.mit.edu/projects/1331945689/editor/){:target="_blank"}.
+
+## Step 2
+
+> [!TASK]
+>
 > Select the **Player** sprite in the sprite pane.
 >
 > ![Scratch Cat sprite selected in the sprite pain](images/player_sprite.png)
 
-## Step 2
+## Step 3
 
 > [!TASK]
 >
@@ -20,7 +26,7 @@ The **Player** sprite already has code that handles gravity, jumping, and fallin
 >
 > ![The Costumes tab in Scratch.](images/tab_costumes.png)
 
-## Step 3
+## Step 4
 
 >![TASK]
 >
@@ -29,7 +35,7 @@ The **Player** sprite already has code that handles gravity, jumping, and fallin
 > ![Two Scratch cat costumes in costumes pane](images/cat_costumes.png)
 >
 
-## Step 4
+## Step 5
 
 > [!TASK]
 >
@@ -37,7 +43,7 @@ The **Player** sprite already has code that handles gravity, jumping, and fallin
 >
 > ![The costume library in Scratch.](images/list-costume.png)
 
-## Step 5
+## Step 6
 
 > [!TASK]
 >
@@ -45,13 +51,17 @@ The **Player** sprite already has code that handles gravity, jumping, and fallin
 >
 > For a classic platformer, a costume with legs, wheels, or a clear body shape is usually easier to understand as the player.
 
-## Step 6
+## Step 7
 
 > [!TASK]
 >
 > Add the costume to the **Player** sprite. If the **Player** already has another costume, keep it because you may be able to use it for an animation later.
+>
+> > [!TIP]
+> >
+> > Some Scratch library sprites with multiple costumes need you to add each costume one at a time. For example, **Unicorn** and some walking sprites need their individual costumes added separately.
 
-## Step 7
+## Step 8
 
 > [!TASK]
 >
@@ -60,6 +70,10 @@ The **Player** sprite already has code that handles gravity, jumping, and fallin
 > when flag clicked
 > go to x: (100) y: (100)
 > ```
+>
+> > [!TIP]
+> >
+> > Place the **Player** a little above the floor so it falls a short distance onto the start point. If the **Player** starts inside the floor sprite, even by a tiny bit, the game can go wonky.
 
 ## Test
 

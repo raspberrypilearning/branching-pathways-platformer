@@ -1,6 +1,6 @@
 ## 3B - Draw foreground platforms
 
-Draw visible foreground platforms in one **Platform** sprite so the **Player** has places to stand and jump.
+Draw visible foreground platforms in one **platform** sprite so the **Player** has places to stand and jump.
 
 ## Step 1
 
@@ -14,7 +14,17 @@ Draw visible foreground platforms in one **Platform** sprite so the **Player** h
 
 > [!TASK]
 >
-> Draw the foreground platforms in the **Platform** sprite.
+> In the **platform** sprite, draw a block that spans the entire lower edge of the Stage.
+>
+> This is the floor. It gives the **Player** solid ground to stand on and stops them falling off the bottom of the Stage.
+>
+> Give the floor a straight, horizontal top.
+
+## Step 3
+
+> [!TASK]
+>
+> Draw the foreground platforms in the **platform** sprite.
 >
 > The place where the **Player** stands must have a straight, horizontal top.
 >
@@ -22,23 +32,23 @@ Draw visible foreground platforms in one **Platform** sprite so the **Player** h
 >
 > If you paste an image, crop or delete any empty pixels around it so the artwork fits tightly around the platform.
 
-## Step 3
-
-> [!TASK]
->
-> In the sprite pane, change the sprite name to **Platform**.
->
-> Use this exact spelling so later steps can check whether the **Player** is touching the **Platform** sprite.
-
 ## Step 4
 
 > [!TASK]
 >
-> Put the **Platform** sprite in the centre of the Stage.
+> In the sprite pane, change the sprite name to **platform**.
+>
+> Use this exact spelling so later steps can check whether the **Player** is touching the **platform** sprite.
+
+## Step 5
+
+> [!TASK]
+>
+> Put the **platform** sprite in the centre of the Stage.
 >
 > The foreground platform drawings should match the places where you want the **Player** to stand.
 
-## Step 5
+## Step 6
 
 > [!TASK]
 >
@@ -46,7 +56,7 @@ Draw visible foreground platforms in one **Platform** sprite so the **Player** h
 >
 > ![The Code tab in Scratch.](images/tab_code.png)
 
-## Step 6
+## Step 7
 
 > [!TASK]
 >
@@ -56,11 +66,11 @@ Draw visible foreground platforms in one **Platform** sprite so the **Player** h
 > +when green flag clicked
 > ```
 
-## Step 7
+## Step 8
 
 > [!TASK]
 >
-> Add blocks to show the **Platform** sprite, move it to the front layer, put it in the centre of the Stage, and set its size.
+> Add blocks to show the **platform** sprite, move it to the front layer, put it in the centre of the Stage, and set its size.
 >
 > ```blocks3
 > when green flag clicked

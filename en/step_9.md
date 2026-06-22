@@ -14,17 +14,25 @@ To draw fancier platforms and montage other images, you can use an editor on you
 
 > [!TASK]
 >
-> Draw your ground and platforms. You don't need it to be perfect. You can come back and edit it later.
+> Draw a block that spans the entire lower edge of your image, along the bottom of the Stage.
 >
-> ![Brown floor and cloud platforms](images/drawn_platforms.png)
+> This is the floor. It stops the **Player** falling off the bottom of the Stage.
 
 ## Step 3
 
 > [!TASK]
 >
-> Export or Save your platforms as a PNG file.
+> Draw the rest of your platforms above the floor. You don't need them to be perfect. You can come back and edit them later.
+>
+> ![Brown floor and cloud platforms](images/drawn_platforms.png)
 
 ## Step 4
+
+> [!TASK]
+>
+> Export or Save your platforms as a PNG file.
+
+## Step 5
 
 > [!TASK]
 >
@@ -32,8 +40,14 @@ To draw fancier platforms and montage other images, you can use an editor on you
 >
 > ![Upload sprite menu.](images/sprite-upload.png)
 
-## Step 5
+## Step 6
 
 > [!TASK]
 >
 > You can resize and edit your platforms in the costume editor if needed.
+>
+> > [!TIP]
+> >
+> > Make sure the top of each platform is completely flat. If the top edge has bumps or stray pixels, the **Player** can catch on them and stop moving smoothly.
+> >
+> > Use the eraser to flatten the top edge, or crop your uploaded image so the top is flat.

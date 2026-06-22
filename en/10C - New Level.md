@@ -6,7 +6,7 @@ Create a second platform layout and switch to it when the player meets the win c
 
 > [!TASK]
 >
-> Select your **Platform** sprite in the sprite pane.
+> Select your **platform** sprite in the sprite pane.
 >
 > Open the **Costumes** tab.
 
@@ -52,7 +52,7 @@ Create a second platform layout and switch to it when the player meets the win c
 >
 > Open the **Code** tab.
 >
-> In the green flag script for the **Platform** sprite, add `switch costume to [level 1 v]`{:class="block3looks"}.
+> In the green flag script for the **platform** sprite, add `switch costume to [level 1 v]`{:class="block3looks"}.
 >
 > Keep any other setup blocks you already use, such as `show`{:class="block3looks"}, `go to [front v] layer`{:class="block3looks"}, `go to x: (0) y: (0)`{:class="block3motion"}, or `set size to (100)%`{:class="block3looks"}.
 >
@@ -66,7 +66,7 @@ Create a second platform layout and switch to it when the player meets the win c
 
 > [!TASK]
 >
-> Add a new script that changes the **Platform** sprite to the second layout:
+> Add a new script that changes the **platform** sprite to the second layout:
 >
 > ```blocks3
 > when I receive [level 2 v]
@@ -105,6 +105,6 @@ Create a second platform layout and switch to it when the player meets the win c
 >
 > Click the green flag and check that your first platform layout appears.
 >
-> Meet your win condition and check that the `level 2` message broadcasts and switches the **Platform** sprite to the second layout.
+> Meet your win condition and check that the `level 2` message broadcasts and switches the **platform** sprite to the second layout.
 >
 > If you made a second backdrop for `3A`, check that the **Stage** also switches to the `level 2` backdrop.
