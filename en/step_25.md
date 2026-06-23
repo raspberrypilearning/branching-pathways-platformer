@@ -6,7 +6,7 @@ Add a hazard like spikes that move up and down to create danger.
 
 > [!TASK]
 >
-> Create a new sprite for your hazard and give it an obvious name like **Hazard**.
+> Create a new sprite for your hazard and give it an obvious name like **hazard**.
 >
 > If you already made a **static hazard** like spikes or lava, you can **duplicate** that sprite and use it here.
 >
@@ -21,7 +21,7 @@ Add a hazard like spikes that move up and down to create danger.
 
 > [!TASK]
 >
-> Resize and place the **Hazard** sprite where you want it to start.
+> Resize and place the **hazard** sprite where you want it to start.
 >
 > Put it above or below a risky part of the level so it can move up and down across the player's path.
 
@@ -29,7 +29,7 @@ Add a hazard like spikes that move up and down to create danger.
 
 > [!TASK]
 >
-> Add these blocks to the **Hazard** sprite.
+> Add these blocks to the **hazard** sprite.
 >
 > Keep the two `x`{:class="block3motion"} positions the same. Change the two `y`{:class="block3motion"} positions to make the hazard move up and down.
 >
@@ -51,7 +51,7 @@ Add a hazard like spikes that move up and down to create danger.
 > ```blocks3
 > when green flag clicked
 > forever
->   if <touching [Hazard v]?> then
+>   if <touching (hazard v)?> then
 >     set [x speed v] to (0)
 >     set [y speed v] to (0)
 >     go to x: () y: ()
@@ -69,4 +69,4 @@ Add a hazard like spikes that move up and down to create danger.
 
 > [!TASK]
 >
-> Click the green flag and check that the **Hazard** moves up and down and sends the **player** back to the start position on contact.
+> Click the green flag and check that the **hazard** moves up and down and sends the **player** back to the start position on contact.

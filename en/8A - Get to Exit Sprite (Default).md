@@ -39,7 +39,7 @@ Make the player win when they touch the **Exit** sprite.
 > ```blocks3
 > when green flag clicked
 > forever
-> +  if <touching [Exit v]?> then
+> +  if <touching (Exit v)?> then
 > +  end
 > end
 > ```
@@ -53,8 +53,8 @@ Make the player win when they touch the **Exit** sprite.
 > ```blocks3
 > when green flag clicked
 > forever
->   if <touching [Exit v]?> then
-> +    broadcast [win v]
+>   if <touching (Exit v)?> then
+> +    broadcast (win v)
 >   end
 > end
 > ```
@@ -79,7 +79,7 @@ Make the player win when they touch the **Exit** sprite.
 >
 > Choose what should happen before `stop all`{:class="block3control"}.
 >
-> You can use the `when I receive win`{:class="block3events"} script to show a message, play a sound, change backdrop, switch costume, or trigger another sprite before the game stops.
+> You can use the `when I receive win`{:class="block3events"} block to show a message, play a sound, change backdrop, switch costume, or trigger another sprite before the game stops.
 >
 > Put any extra win blocks above `stop all`{:class="block3control"}.
 

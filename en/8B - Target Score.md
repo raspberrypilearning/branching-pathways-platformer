@@ -10,7 +10,9 @@ Make the player win when their **Score** reaches a target value.
 >
 > Set it up for **all sprites** so the Stage and other sprites can use it.
 >
-> Your game also needs a way to increase `Score`. Collectables are a good way to do this. If you have not added scoring yet, use `7A - Place Collectables` or `7B - Random Collectables`.
+> > [!TIP]
+> >
+> > A target score only works if something makes `Score` go up as the player plays, and collectables are the perfect basis for a scoring system. If you have not added any yet, it is well worth going back to `Place Collectables` or `Random Collectables` and adding them first. Each collectable the player touches adds `1` to `Score`, giving this step a value to count towards.
 
 ## Step 2
 
@@ -74,7 +76,7 @@ Make the player win when their **Score** reaches a target value.
 > set [Score v] to (0)
 > forever
 >   if <(Score) > (4)> then
-> +    broadcast [win v]
+> +    broadcast (win v)
 >   end
 > end
 > ```

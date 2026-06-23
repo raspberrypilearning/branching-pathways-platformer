@@ -20,7 +20,7 @@ Add a new sprite that gives the **player** extra speed or a higher jump when the
 
 > [!TASK]
 >
-> Select the **Power Up** sprite and add a script that starts when the green flag is clicked.
+> Select the **Power Up** sprite and add a `when green flag clicked` block.
 >
 > ```blocks3
 > +when green flag clicked
@@ -53,7 +53,7 @@ Add a new sprite that gives the **player** extra speed or a higher jump when the
 > show
 > go to [front v] layer
 > +forever
-> +  if <touching [player v]?> then
+> +  if <touching (player v)?> then
 > +  end
 > +end
 > ```
@@ -70,8 +70,8 @@ Add a new sprite that gives the **player** extra speed or a higher jump when the
 > show
 > go to [front v] layer
 > forever
->   if <touching [player v]?> then
-> +    broadcast [power up v]
+>   if <touching (player v)?> then
+> +    broadcast (power up v)
 > +    hide
 > +    stop [this script v]
 >   end
@@ -96,8 +96,12 @@ Add a new sprite that gives the **player** extra speed or a higher jump when the
 > +wait (5) seconds
 > +change [move speed v] by (-2)
 > ```
+
+## Step 8
+
+> [!TASK]
 >
-> To make the **player** jump higher, increase `jump strength`{:class="block3variables"}:
+> Or, if you would rather the power-up made the **player** jump higher, use this script instead of the one in Step 7 to increase `jump strength`{:class="block3variables"}:
 >
 > ```blocks3
 > +when I receive [power up v]

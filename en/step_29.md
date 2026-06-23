@@ -40,7 +40,7 @@ Create a second platform layout and switch to it when the player meets the win c
 
 > [!TASK]
 >
-> If you used `3A - Add platforms to match your backdrop`, select the **Stage** and create a matching second backdrop.
+> If you used `Add platforms to match your backdrop`, select the **Stage** and create a matching second backdrop.
 >
 > Rename your current backdrop `level 1`, duplicate it, rename the copy `level 2`, and edit it so it matches the new platform layout.
 >
@@ -93,10 +93,10 @@ Create a second platform layout and switch to it when the player meets the win c
 >
 > Find the script from your win condition route.
 >
-> Change the `broadcast win`{:class="block3events"} block to `broadcast [level 2 v]`{:class="block3events"}.
+> Change the `broadcast win`{:class="block3events"} block to `broadcast (level 2 v)`{:class="block3events"}.
 >
 > ```blocks3
-> broadcast [level 2 v]
+> broadcast (level 2 v)
 > ```
 
 ## Test

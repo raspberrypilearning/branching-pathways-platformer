@@ -6,7 +6,7 @@ Add spikes, lava or another non-moving hazard for the player to avoid.
 
 > [!TASK]
 >
-> Create a new sprite and give it an obvious name like **Hazard** or **spikes**.
+> Create a new sprite and give it an obvious name like **hazard** or **spikes**.
 >
 > > [!TIP]
 > >
@@ -28,7 +28,7 @@ Add spikes, lava or another non-moving hazard for the player to avoid.
 > ```blocks3
 > when green flag clicked
 > forever
->   if <touching [hazard v]?> then
+>   if <touching (hazard v)?> then
 >     set [x speed v] to (0)
 >     set [y speed v] to (0)
 >     go to x: () y: ()
@@ -52,7 +52,7 @@ Add spikes, lava or another non-moving hazard for the player to avoid.
 
 > [!TASK]
 >
-> When your hazard works, right-click or long-press the **Hazard** sprite and choose **duplicate**.
+> When your hazard works, right-click or long-press the **hazard** sprite and choose **duplicate**.
 >
 > Drag the new hazard sprite to another place in your level.
 >

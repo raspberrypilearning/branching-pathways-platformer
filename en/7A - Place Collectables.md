@@ -18,13 +18,23 @@ Place collectables exactly where you want the player to find them.
 
 > [!TASK]
 >
+> Make sure you have a `Score` variable.
+>
+> Make `Score` for all sprites.
+>
+> Use this exact name so the blocks below match.
+
+## Step 3
+
+> [!TASK]
+>
 > Select the collectable sprite and add a script that starts when the green flag is clicked.
 >
 > ```blocks3
 > +when green flag clicked
 > ```
 
-## Step 3
+## Step 4
 
 > [!TASK]
 >
@@ -39,7 +49,7 @@ Place collectables exactly where you want the player to find them.
 > +create clone of (myself v)
 > ```
 
-## Step 4
+## Step 5
 
 > [!TASK]
 >
@@ -58,7 +68,7 @@ Place collectables exactly where you want the player to find them.
 > +create clone of (myself v)
 > ```
 
-## Step 5
+## Step 6
 
 > [!TASK]
 >
@@ -77,7 +87,7 @@ Place collectables exactly where you want the player to find them.
 > +hide
 > ```
 
-## Step 6
+## Step 7
 
 > [!TASK]
 >
@@ -87,7 +97,7 @@ Place collectables exactly where you want the player to find them.
 > +when I start as a clone
 > ```
 
-## Step 7
+## Step 8
 
 > [!TASK]
 >
@@ -99,7 +109,7 @@ Place collectables exactly where you want the player to find them.
 > +show
 > ```
 
-## Step 8
+## Step 9
 
 > [!TASK]
 >
@@ -110,12 +120,12 @@ Place collectables exactly where you want the player to find them.
 > go to [front v] layer
 > show
 > +forever
-> +  if <touching [player v]?> then
+> +  if <touching (player v)?> then
 > +  end
 > +end
 > ```
 
-## Step 9
+## Step 10
 
 > [!TASK]
 >
@@ -126,7 +136,7 @@ Place collectables exactly where you want the player to find them.
 > go to [front v] layer
 > show
 > forever
->   if <touching [player v]?> then
+>   if <touching (player v)?> then
 > +    change [Score v] by (1)
 > +    hide
 >   end

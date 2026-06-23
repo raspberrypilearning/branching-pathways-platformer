@@ -142,7 +142,7 @@ Make collectables drop from random positions and land on the **platform** sprite
 >     go to x: (pick random (-200) to (200)) y: (pick random (-120) to (160))
 >     show
 >     set [position_ok v] to (1)
-> +    if <touching [platform v]?> then
+> +    if <touching (platform v)?> then
 > +      set [position_ok v] to (0)
 > +    end
 > +    if <not <<(x position) > ((last_x) + (min_distance))> or <(x position) < ((last_x) - (min_distance))>>> then
@@ -171,7 +171,7 @@ Make collectables drop from random positions and land on the **platform** sprite
 >     go to x: (pick random (-200) to (200)) y: (pick random (-120) to (160))
 >     show
 >     set [position_ok v] to (1)
->     if <touching [platform v]?> then
+>     if <touching (platform v)?> then
 >       set [position_ok v] to (0)
 >     end
 >     if <not <<(x position) > ((last_x) + (min_distance))> or <(x position) < ((last_x) - (min_distance))>>> then
@@ -201,7 +201,7 @@ Make collectables drop from random positions and land on the **platform** sprite
 >     go to x: (pick random (-200) to (200)) y: (pick random (-120) to (160))
 >     show
 >     set [position_ok v] to (1)
->     if <touching [platform v]?> then
+>     if <touching (platform v)?> then
 >       set [position_ok v] to (0)
 >     end
 >     if <not <<(x position) > ((last_x) + (min_distance))> or <(x position) < ((last_x) - (min_distance))>>> then
@@ -234,7 +234,7 @@ Make collectables drop from random positions and land on the **platform** sprite
 > ```blocks3
 > when I start as a clone
 > +show
-> +repeat until <touching [platform v]?>
+> +repeat until <touching (platform v)?>
 > +  change y by (-10)
 > +end
 > ```
@@ -248,11 +248,11 @@ Make collectables drop from random positions and land on the **platform** sprite
 > ```blocks3
 > when I start as a clone
 > show
-> repeat until <touching [platform v]?>
+> repeat until <touching (platform v)?>
 >   change y by (-10)
 > end
 > +forever
-> +  if <touching [player v]?> then
+> +  if <touching (player v)?> then
 > +  end
 > +end
 > ```
@@ -266,11 +266,11 @@ Make collectables drop from random positions and land on the **platform** sprite
 > ```blocks3
 > when I start as a clone
 > show
-> repeat until <touching [platform v]?>
+> repeat until <touching (platform v)?>
 >   change y by (-10)
 > end
 > forever
->   if <touching [player v]?> then
+>   if <touching (player v)?> then
 > +    change [Score v] by (1)
 > +    hide
 >   end

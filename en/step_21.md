@@ -39,7 +39,7 @@ Make the player win when they touch the **Exit** sprite.
 > ```blocks3
 > when green flag clicked
 > forever
-> +  if <touching [Exit v]?> then
+> +  if <touching (Exit v)?> then
 > +  end
 > end
 > ```
@@ -53,8 +53,8 @@ Make the player win when they touch the **Exit** sprite.
 > ```blocks3
 > when green flag clicked
 > forever
->   if <touching [Exit v]?> then
-> +    broadcast [win v]
+>   if <touching (Exit v)?> then
+> +    broadcast (win v)
 >   end
 > end
 > ```

@@ -30,7 +30,7 @@ Add sound effects to make moments such as jumping, collecting items, winning, or
 > when green flag clicked
 > show
 > forever
-> 	if <touching [player v]?> then
+> 	if <touching (player v)?> then
 > 		change [Score v] by (1)
 > 		play sound [effect v] until done
 > 		hide
