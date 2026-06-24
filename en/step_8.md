@@ -58,7 +58,7 @@ Draw visible foreground platforms in one **platform** sprite so the **player** h
 >
 > Open the **Code** tab.
 >
-> ![The Code tab in Scratch.](images/tab_code.png)
+> ![The Code tab in Scratch.](images/code-tab.png)
 
 ## Step 7
 

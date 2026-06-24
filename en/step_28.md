@@ -13,12 +13,16 @@ Add sound effects to make moments such as jumping, collecting items, winning, or
 > [!TASK]
 >
 > Select the **Sounds** tab and then **Choose a Sound**.
+> 
+> [![Scratch sound tab](images/sounds-tab.png)](images/sounds-tab.png)
 
 ## Step 3
 
 > [!TASK]
 >
 > Choose a sound effect from the library.
+>
+> [![Scratch sound effect list](images/sounds-list.png)](images/sounds-list.png)
 
 ## Step 4
 

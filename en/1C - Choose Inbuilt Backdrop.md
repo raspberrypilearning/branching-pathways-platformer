@@ -12,7 +12,7 @@
 >
 > In the **Stage**, select **Choose a Backdrop** in the menu.
 >
-> ![Scratch backdrop library](images/stage-backdrop.png)
+> ![Scratch backdrop library](images/backdrop-choose.png)
 
 ## Step 3
 

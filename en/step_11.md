@@ -14,7 +14,7 @@ Make the **player** follow the mouse on the x-axis.
 >
 > Open the **Code** tab.
 >
-> ![The Code tab in Scratch.](images/tab_code.png)
+> ![The Code tab in Scratch.](images/code-tab.png)
 
 The starter project already includes an `Up Down Helper` block, and the **player** setup script with these **player** variables:
 
@@ -77,5 +77,3 @@ The starter project already includes an `Up Down Helper` block, and the **player
 > ```
 >
 > If this is too fast or too slow, you can choose a number larger or smaller than `10`.
-
-
