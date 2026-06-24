@@ -12,7 +12,7 @@ Make the player win when they touch the **Exit** sprite.
 
 > [!TASK]
 >
-> Add a script that starts when the green flag is clicked.
+> Add a `when green flag clicked` block.
 >
 > ```blocks3
 > +when green flag clicked
