@@ -18,7 +18,7 @@ Switch costumes while the **player** moves so the character feels more alive.
 
 > [!TASK]
 >
-> Open the **Code** tab and add this animation script.
+> Open the **Code** tab and add these animation blocks.
 >
 > ```blocks3
 > when green flag clicked

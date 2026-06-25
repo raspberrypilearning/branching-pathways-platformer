@@ -52,7 +52,7 @@ Create a second platform layout and switch to it when the player meets the win c
 >
 > Open the **Code** tab.
 >
-> In the green flag script for the **platform** sprite, add `switch costume to [level 1 v]`{:class="block3looks"}.
+> In the green flag block for the **platform** sprite, add `switch costume to level 1`{:class="block3looks"}.
 >
 > Keep any other setup blocks you already use, such as `show`{:class="block3looks"}, `go to [front v] layer`{:class="block3looks"}, `go to x: (0) y: (0)`{:class="block3motion"}, or `set size to (100)%`{:class="block3looks"}.
 >
@@ -66,7 +66,7 @@ Create a second platform layout and switch to it when the player meets the win c
 
 > [!TASK]
 >
-> Add a new script that changes the **platform** sprite to the second layout:
+> Add a new block that changes the **platform** sprite to the second layout:
 >
 > ```blocks3
 > when I receive [level 2 v]
@@ -77,7 +77,7 @@ Create a second platform layout and switch to it when the player meets the win c
 
 > [!TASK]
 >
-> If you made a `level 2` backdrop, add these scripts to the **Stage**:
+> If you made a `level 2` backdrop, add these blocks to the backdrop **Stage**:
 >
 > ```blocks3
 > when green flag clicked
@@ -91,7 +91,7 @@ Create a second platform layout and switch to it when the player meets the win c
 
 > [!TASK]
 >
-> Find the script from your win condition route.
+> Find the block from your win condition route.
 >
 > Change the `broadcast win`{:class="block3events"} block to `broadcast (level 2 v)`{:class="block3events"}.
 >

@@ -6,11 +6,11 @@ Add a sprint key so the **player** moves faster while `shift` is held.
 
 > [!TASK]
 >
-> Find the `forever`{:class="block3control"} loop in your **player** movement script.
+> Find the `forever`{:class="block3control"} block that moves your **player**.
 >
 > If your movement uses `move speed`{:class="block3variables"}, make a new variable called `sprint speed` for the **player** sprite.
 >
-> Set `sprint speed`{:class="block3variables"} to a number bigger than `move speed`{:class="block3variables"} in your starting script.
+> Set `sprint speed`{:class="block3variables"} to a number bigger than `move speed`{:class="block3variables"} in your starting block.
 >
 > ```blocks3
 > when green flag clicked

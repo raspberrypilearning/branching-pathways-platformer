@@ -13,18 +13,22 @@ Add sound effects to make moments such as jumping, collecting items, winning, or
 > [!TASK]
 >
 > Select the **Sounds** tab and then **Choose a Sound**.
+> 
+> [![Scratch sound tab](images/sounds-tab.png)](images/sounds-tab.png)
 
 ## Step 3
 
 > [!TASK]
 >
 > Choose a sound effect from the library.
+>
+> [![Scratch sound effect list](images/sounds-list.png)](images/sounds-list.png)
 
 ## Step 4
 
 > [!TASK]
 >
-> Add a sound to the collectable script so it plays when the player touches it. Use the same example script from 8B and add a `play sound [effect v] until done`{:class="block3sounds"} block:
+> Add a sound to the collectable blocks so it plays when the player touches it. Use the same example blocks from 8B and add a `play sound [effect v] until done`{:class="block3sounds"} block:
 >
 > ```blocks3
 > when green flag clicked

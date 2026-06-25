@@ -30,7 +30,7 @@
 >
 > In the **Stage**, choose **Upload Backdrop** in the menu, and pick an image from your device.
 >
-> ![Scratch backdrop tool](images/stage-upload.png)
+> ![Scratch backdrop tool](images/backdrop-upload.png)
 
 ## Step 4
 

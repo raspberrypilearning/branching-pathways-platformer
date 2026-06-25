@@ -58,7 +58,7 @@ Add a **platform** sprite with lines that match places in your backdrop where th
 >
 > Open the **Code** tab.
 >
-> ![The Code tab in Scratch.](images/tab_code.png)
+> ![The Code tab in Scratch.](images/code-tab.png)
 
 ## Step 7
 

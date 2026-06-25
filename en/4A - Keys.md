@@ -14,7 +14,7 @@ Add keyboard controls so the **player** can run and jump.
 >
 > Open the **Code** tab.
 >
-> ![The Code tab in Scratch.](images/tab_code.png)
+> ![The Code tab in Scratch.](images/code-tab.png)
 
 The starter project already includes an `Up Down Helper` block, and the **player** setup script with these variables:
 

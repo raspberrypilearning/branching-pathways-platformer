@@ -28,7 +28,7 @@ Choose a sprite from the Scratch library and use it as the **Exit** - the way to
 
 > [!TASK]
 >
-> Select the **Exit** sprite and add a script that starts when the green flag is clicked.
+> Select the **Exit** sprite and add a green flag block.
 >
 > ```blocks3
 > +when green flag clicked

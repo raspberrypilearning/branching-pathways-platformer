@@ -38,7 +38,7 @@ Make sure you already have an image you want to use saved onto your computer.
 >
 > Open the **Costumes** tab.
 >
-> ![The Costumes tab in Scratch.](images/tab_costumes.png)
+> ![The Costumes tab in Scratch.](images/costumes-tab.png)
 
 ## Step 5
 

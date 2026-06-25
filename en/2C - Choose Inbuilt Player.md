@@ -24,7 +24,7 @@ The **player** sprite already has code that handles gravity, jumping, and fallin
 >
 > Open the **Costumes** tab.
 >
-> ![The Costumes tab in Scratch.](images/tab_costumes.png)
+> ![The Costumes tab in Scratch.](images/costumes-tab.png)
 
 ## Step 4
 
@@ -32,7 +32,7 @@ The **player** sprite already has code that handles gravity, jumping, and fallin
 >
 > Open the costume menu and select **Choose a Costume**.
 >
-> ![The costume library in Scratch.](images/list-costume.png)
+> ![The costume library in Scratch.](images/costume-list.png)
 
 ## Step 5
 

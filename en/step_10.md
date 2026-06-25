@@ -14,17 +14,17 @@ Add keyboard controls so the **player** can run and jump.
 >
 > Open the **Code** tab.
 >
-> ![The Code tab in Scratch.](images/tab_code.png)
+> ![The Code tab in Scratch.](images/code-tab.png)
+>
 
-The starter project already includes an `Up Down Helper` block, and the **player** setup script with these **player** variables:
-
-`x speed`{:class="block3variables"}, `y speed`{:class="block3variables"}, `gravity`{:class="block3variables"}, `jump strength`{:class="block3variables"}, `move speed`{:class="block3variables"}, `on ground`, `vertical steps`{:class="block3variables"}
+## TIP!
+The starter project already includes an `Up Down Helper` block, and the **player** is setup with some variables.
 
 ## Step 3
 
 > [!TASK]
 >
-> Add a `forever`{:class="block3control"} loop to your starting script and set `x speed`{:class="block3variables"} to `0`.
+> Add a `forever`{:class="block3control"} loop to your starting block and set `x speed`{:class="block3variables"} to `0`.
 >
 > ```blocks3
 > when green flag clicked
@@ -112,4 +112,4 @@ The starter project already includes an `Up Down Helper` block, and the **player
 >
 > Click the green flag and use the arrow keys to move left and right.
 >
-> If the **player** moves too quickly or too slowly, change `move speed` in the starter setup script.
+> If the **player** moves too quickly or too slowly, change `move speed` in the starter setup block.
