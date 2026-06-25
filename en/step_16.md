@@ -38,7 +38,7 @@ Upload an image and use it as the **Exit** sprite, the way to finish the level.
 
 > [!TASK]
 >
-> Select the **Exit** sprite and add a script that starts when the green flag is clicked.
+> Select the **Exit** sprite and add a green flag block.
 >
 > ```blocks3
 > +when green flag clicked

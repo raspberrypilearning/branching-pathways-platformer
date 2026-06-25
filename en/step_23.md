@@ -24,7 +24,7 @@ Make the player win only after collecting a key and reaching the **Exit**.
 
 > [!TASK]
 >
-> Select the **Stage** and add a script that starts when the green flag is clicked.
+> Select the **Stage** and add a green flag block.
 >
 > ```blocks3
 > when green flag clicked
@@ -35,7 +35,7 @@ Make the player win only after collecting a key and reaching the **Exit**.
 
 > [!TASK]
 >
-> Select the **Key** sprite and add this script.
+> Select the **Key** sprite and add these blocks.
 >
 > ```blocks3
 > when green flag clicked
@@ -52,7 +52,7 @@ Make the player win only after collecting a key and reaching the **Exit**.
 
 > [!TASK]
 >
-> Select the **Exit** sprite and add a script that checks when the player touches it.
+> Select the **Exit** sprite and add blocks that check when the player touches it.
 >
 > ```blocks3
 > when green flag clicked
@@ -104,11 +104,11 @@ Make the player win only after collecting a key and reaching the **Exit**.
 
 > [!TASK]
 >
-> Add a new script that starts when it receives the `win`{:class="block3events"} message.
+> Add a new `when I receive win`{:class="block3events"} block.
 >
 > Add `say 'You win!' for 2 seconds`{:class="block3looks"} and `stop all`{:class="block3control"}.
 >
-> If you already added this win script in another route, just check this step off.
+> If you already added this win block in another route, just check this step off.
 >
 > ```blocks3
 > +when I receive [win v]
@@ -122,7 +122,7 @@ Make the player win only after collecting a key and reaching the **Exit**.
 >
 > Choose what should happen before `stop all`{:class="block3control"}.
 >
-> You can use the `when I receive win`{:class="block3events"} script to show a message, play a sound, change backdrop, switch costume, or trigger another sprite before the game stops.
+> You can use the `when I receive win`{:class="block3events"} block to show a message, play a sound, change backdrop, switch costume, or trigger another sprite before the game stops.
 >
 > Put any extra win blocks above `stop all`{:class="block3control"}.
 

@@ -30,7 +30,7 @@ Make collectables drop from random positions and land on the **platform** sprite
 
 > [!TASK]
 >
-> Select the collectable sprite and add a script that starts when the green flag is clicked.
+> Select the collectable sprite and add a green flag block.
 >
 > ```blocks3
 > +when green flag clicked
@@ -218,7 +218,7 @@ Make collectables drop from random positions and land on the **platform** sprite
 
 > [!TASK]
 >
-> Add a second script to the collectable sprite that starts when each clone is created.
+> Add a `when I start as a clone`{:class="block3control"} block to the collectable sprite.
 >
 > ```blocks3
 > +when I start as a clone

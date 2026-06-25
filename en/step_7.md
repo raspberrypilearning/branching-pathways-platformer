@@ -64,7 +64,7 @@ Add a **platform** sprite with lines that match places in your backdrop where th
 
 > [!TASK]
 >
-> Add a script that starts when the green flag is clicked.
+> Add a green flag block.
 >
 > ```blocks3
 > +when green flag clicked

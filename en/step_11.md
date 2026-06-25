@@ -16,7 +16,7 @@ Make the **player** follow the mouse on the x-axis.
 >
 > ![The Code tab in Scratch.](images/code-tab.png)
 
-The starter project already includes an `Up Down Helper` block, and the **player** setup script with these **player** variables:
+The starter project already includes an `Up Down Helper` block, and the **player** setup block with these **player** variables:
 
 `x speed`{:class="block3variables"}, `y speed`{:class="block3variables"}, `gravity`{:class="block3variables"}, `jump strength`{:class="block3variables"}, `move speed`{:class="block3variables"}, `on ground`, `vertical steps`{:class="block3variables"}
 

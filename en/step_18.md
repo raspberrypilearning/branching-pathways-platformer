@@ -28,7 +28,7 @@ Place collectables exactly where you want the player to find them.
 
 > [!TASK]
 >
-> Select the collectable sprite and add a script that starts when the green flag is clicked.
+> Select the collectable sprite and add a green flag block.
 >
 > ```blocks3
 > +when green flag clicked
@@ -72,7 +72,7 @@ Place collectables exactly where you want the player to find them.
 
 > [!TASK]
 >
-> Add `go to [front v] layer`{:class="block3looks"} so they appear in front of any platforms and then add a `hide`{:class="block3looks"} block to the bottom of the green flag script so the original sprite disappears after it has made all the clones.
+> Add `go to [front v] layer`{:class="block3looks"} so they appear in front of any platforms and then add a `hide`{:class="block3looks"} block to the bottom of the blocks so the original sprite disappears after it has made all the clones.
 >
 > ```blocks3
 > when green flag clicked
@@ -91,7 +91,7 @@ Place collectables exactly where you want the player to find them.
 
 > [!TASK]
 >
-> Add a second script to the collectable sprite that starts when each clone is created.
+> Add a `when I start as a clone`{:class="block3control"} block to the collectable sprite.
 >
 > ```blocks3
 > +when I start as a clone

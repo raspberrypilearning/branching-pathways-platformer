@@ -61,7 +61,7 @@ Add a hazard like spikes that move up and down to create danger.
 
 > [!TASK]
 >
-> Add the same position you used in the **player** starting script into `go to x: y:`{:class="block3motion"}.
+> Add the same position you used in the **player** starting block into `go to x: y:`{:class="block3motion"}.
 >
 > This resets the **player** instead of stopping the game.
 

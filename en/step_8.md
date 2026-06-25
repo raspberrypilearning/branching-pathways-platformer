@@ -64,7 +64,7 @@ Draw visible foreground platforms in one **platform** sprite so the **player** h
 
 > [!TASK]
 >
-> Add a script that starts when the green flag is clicked.
+> Add a green flag block.
 >
 > ```blocks3
 > +when green flag clicked

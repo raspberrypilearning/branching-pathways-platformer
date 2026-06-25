@@ -28,7 +28,7 @@ Draw your own **Exit** sprite to show where the player should finish the level.
 
 > [!TASK]
 >
-> Select the **Exit** sprite and add a script that starts when the green flag is clicked.
+> Select the **Exit** sprite and add a green flag block.
 >
 > ```blocks3
 > +when green flag clicked

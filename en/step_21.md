@@ -12,7 +12,7 @@ Make the player win when they touch the **Exit** sprite.
 
 > [!TASK]
 >
-> Add a script that starts when the green flag is clicked.
+> Add a green flag block.
 >
 > ```blocks3
 > +when green flag clicked
@@ -63,7 +63,7 @@ Make the player win when they touch the **Exit** sprite.
 
 > [!TASK]
 >
-> Add a new script that starts when it receives the `win`{:class="block3events"} message.
+> Add a new `when I receive win`{:class="block3events"} block.
 >
 > Add `say 'You win!' for 2 seconds`{:class="block3looks"} and `stop all`{:class="block3control"}.
 >
@@ -79,7 +79,7 @@ Make the player win when they touch the **Exit** sprite.
 >
 > Choose what should happen before `stop all`{:class="block3control"}.
 >
-> You can use the `when I receive win`{:class="block3events"} script to show a message, play a sound, change backdrop, switch costume, or trigger another sprite before the game stops.
+> You can use the `when I receive win`{:class="block3events"} block to show a message, play a sound, change backdrop, switch costume, or trigger another sprite before the game stops.
 >
 > Put any extra win blocks above `stop all`{:class="block3control"}.
 
