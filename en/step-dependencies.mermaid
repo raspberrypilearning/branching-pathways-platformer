@@ -1,0 +1,66 @@
+graph LR
+    %% Legend: solid arrow = required prerequisite; dotted arrow = optional / "any one of"
+
+    %% Foundational steps (no prerequisites) — green
+    G1["Group 1: Backdrop<br/>(1A / 1B / 1C)"]
+    G2["Group 2: Player<br/>(2A / 2B / 2C)"]
+    G3["Group 3: Platforms<br/>(3A / 3B / 3C)"]
+    G6["Group 6: Exit sprite<br/>(6A / 6B / 6C)"]
+    M10A["10A: Add Music"]
+    SFX10B["10B: Add Sound effects"]
+
+    %% Dependent steps — orange
+    G4["Group 4: Move player<br/>(4A / 4B / 4C)"]
+    S5A["5A: Jump/Fall (Keys)"]
+    S5B["5B: Jump/Fall (Mouse)"]
+    C7A["7A: Place Collectables"]
+    C7B["7B: Random Collectables"]
+    P7C["7C: Add a Power Up"]
+    W8A["8A: Get to Exit"]
+    W8B["8B: Target Score"]
+    W8C["8C: Take Key to Exit"]
+    H9["9A / 9B / 9C: Hazards"]
+    L10C["10C: New Level"]
+    A10D["10D: Animate player"]
+    SP10E["10E: Sprint"]
+
+    %% Logical join node (not a step) — any one win condition
+    WIN{{"Win condition reached<br/>(any of 8A / 8B / 8C)"}}
+
+    %% --- Required dependencies (solid) ---
+    G2 --> G4
+    G4 --> S5A
+    G3 --> S5A
+    G3 --> S5B
+    G4 -->|"via 4B (mouse)"| S5B
+    G2 --> C7A
+    G2 --> C7B
+    G3 --> C7B
+    G4 --> P7C
+    G2 --> W8A
+    G6 --> W8A
+    G2 --> W8C
+    G6 --> W8C
+    G2 --> H9
+    G2 --> A10D
+    G4 --> A10D
+    G4 --> SP10E
+    G3 --> L10C
+    WIN --> L10C
+
+    %% --- Optional / any-one dependencies (dotted) ---
+    S5A -.->|"higher-jump variant"| P7C
+    S5B -.->|"higher-jump variant"| P7C
+    C7A -.->|"7A or 7B"| W8B
+    C7B -.->|"7A or 7B"| W8B
+    W8A -.->|"any one"| WIN
+    W8B -.->|"any one"| WIN
+    W8C -.->|"any one"| WIN
+
+    %% Styling
+    classDef free fill:#e6f7e6,stroke:#2e7d32,color:#000;
+    classDef dep fill:#fff3e0,stroke:#e65100,color:#000;
+    classDef join fill:#e3f2fd,stroke:#1565c0,color:#000;
+    class G1,G2,G3,G6,M10A,SFX10B free;
+    class G4,S5A,S5B,C7A,C7B,P7C,W8A,W8B,W8C,H9,L10C,A10D,SP10E dep;
+    class WIN join;
