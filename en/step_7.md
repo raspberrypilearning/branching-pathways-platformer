@@ -8,7 +8,7 @@ Add a **platform** sprite with lines that match places in your backdrop where th
 >
 > Open the **Choose a Sprite** menu and select **Paint**.
 >
-> ![The Paint option in the Choose a Sprite menu.](images/sprite-paint.png)
+> ![The Paint option in the Choose a Sprite menu.](images/sprite-paint.png){:width="200px"}
 
 ## Step 2
 
@@ -58,7 +58,7 @@ Add a **platform** sprite with lines that match places in your backdrop where th
 >
 > Open the **Code** tab.
 >
-> ![The Code tab in Scratch.](images/code-tab.png)
+> ![The Code tab in Scratch.](images/code-tab.png){:width="450px"}
 
 ## Step 7
 

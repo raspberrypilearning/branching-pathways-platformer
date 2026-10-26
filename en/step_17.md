@@ -8,7 +8,7 @@ Choose a sprite from the Scratch library and use it as the **Exit** - the way to
 >
 > Open the **Choose a Sprite** menu and select **Choose a Sprite**.
 >
-> ![The Choose a Sprite option in the sprite menu.](images/sprite-choose.png)
+> ![The Choose a Sprite option in the sprite menu.](images/sprite-choose.png){:width="300px"}
 
 ## Step 2
 

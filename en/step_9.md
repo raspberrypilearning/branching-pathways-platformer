@@ -8,7 +8,7 @@ To draw fancier platforms and montage other images, you can use an editor on you
 >
 > Create a new file in your editor. Make sure to choose a size of 480 x 360 pixels and a transparent background
 >
-> ![pixlr new file options](images/pixlr_new_image.png)
+> ![pixlr new file options](images/pixlr_new_image.png){:width="200px"}
 
 ## Step 2
 
@@ -24,7 +24,7 @@ To draw fancier platforms and montage other images, you can use an editor on you
 >
 > Draw the rest of your platforms above the floor. You don't need them to be perfect. You can come back and edit them later.
 >
-> ![Brown floor and cloud platforms](images/drawn_platforms.png)
+> ![Brown floor and cloud platforms](images/drawn_platforms.png){:width="450px"}
 
 ## Step 4
 
@@ -38,7 +38,7 @@ To draw fancier platforms and montage other images, you can use an editor on you
 >
 > Upload a new sprite and choose the image you've drawn. Rename it to **platform**
 >
-> ![Upload sprite menu.](images/sprite-upload.png)
+> ![Upload sprite menu.](images/sprite-upload.png){:width="200px"}
 
 ## Step 6
 

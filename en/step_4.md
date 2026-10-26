@@ -58,7 +58,7 @@ The **player** sprite already has code for gravity, jumping, and falling, so be 
 > ```blocks3
 > when flag clicked
 > go to x: (-200) y: (-120)
-> point in direction ()
+> point in direction (90)
 > ```
 
 
@@ -66,7 +66,7 @@ The **player** sprite already has code for gravity, jumping, and falling, so be 
 
 > [!TASK]
 >
-> Use the dial to set the player's direction when the green flag is clicked.
+> Use the dial to choose which way your player faces when the game starts.
 > 
 > ![The direction dial in Scratch.](images/direction.gif){:width="450px"}
 
@@ -75,13 +75,13 @@ The **player** sprite already has code for gravity, jumping, and falling, so be 
 
 > [!TASK]
 >
-> Change the `size`{:class="block3looks"} of your player. If it is too large you can make it smaller.
+> Change the `size`{:class="block3looks"} of your player to make it the right size for your game.
 >
 > ```blocks3
 > when flag clicked
 > go to x: (-200) y: (-120)
-> point in direction ()
-> + set size to () %
+> point in direction (90)
+> + set size to (70) %
 > ```
 
 

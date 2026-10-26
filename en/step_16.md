@@ -20,7 +20,7 @@ Upload an image and use it as the **Exit** sprite, the way to finish the level.
 >
 > Open the **Choose a Sprite** menu and select the **Upload Sprite** icon.
 >
-> ![The Choose a Sprite menu.](images/choose_sprite.png)
+> ![The Choose a Sprite menu.](images/choose_sprite.png){:width="300px"}
 
 ## Step 3
 

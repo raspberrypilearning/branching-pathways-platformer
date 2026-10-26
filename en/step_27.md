@@ -14,7 +14,7 @@ Add background music to give your game atmosphere.
 >
 > Select the **Sounds** tab and then **Choose a Sound**.
 > 
-> [![Scratch sound tab](images/sounds-tab.png)](images/sounds-tab.png)
+> [![Scratch sound tab](images/sounds-tab.png){:width="450px"}](images/sounds-tab.png)
 
 ## Step 3
 
@@ -26,7 +26,7 @@ Add background music to give your game atmosphere.
 > >
 > > Clicking on the `loops` button will show files that will loop neatly.
 > >
-> > [![Scratch sound categories with Loops selected](images/sound_categories_loops.png)](images/sound_categories_loops.png)
+> > [![Scratch sound categories with Loops selected](images/sound_categories_loops.png){:width="450px"}](images/sound_categories_loops.png)
 
 ## Step 4
 

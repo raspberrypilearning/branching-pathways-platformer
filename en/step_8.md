@@ -8,7 +8,7 @@ Draw visible foreground platforms in one **platform** sprite so the **player** h
 >
 > Open the **Choose a Sprite** menu and select **Paint**.
 >
-> ![The Paint option in the Choose a Sprite menu.](images/sprite-paint.png)
+> ![The Paint option in the Choose a Sprite menu.](images/sprite-paint.png){:width="200px"}
 
 ## Step 2
 
@@ -58,7 +58,7 @@ Draw visible foreground platforms in one **platform** sprite so the **player** h
 >
 > Open the **Code** tab.
 >
-> ![The Code tab in Scratch.](images/code-tab.png)
+> ![The Code tab in Scratch.](images/code-tab.png){:width="450px"}
 
 ## Step 7
 

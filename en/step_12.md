@@ -14,7 +14,7 @@ Make the **player** keep moving, and use the arrow keys to change direction.
 >
 > Open the **Code** tab.
 >
-> ![The Code tab in Scratch.](images/code-tab.png)
+> ![The Code tab in Scratch.](images/code-tab.png){:width="450px"}
 
 The starter project already includes an `Up Down Helper` block, and the **player** setup block with these **player** variables:
 

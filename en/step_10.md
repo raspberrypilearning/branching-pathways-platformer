@@ -14,7 +14,7 @@ Add keyboard controls so the **player** can run and jump.
 >
 > Open the **Code** tab.
 >
-> ![The Code tab in Scratch.](images/code-tab.png)
+> ![The Code tab in Scratch.](images/code-tab.png){:width="450px"}
 >
 
 ## TIP!

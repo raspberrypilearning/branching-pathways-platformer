@@ -8,7 +8,7 @@ Draw your own **Exit** sprite to show where the player should finish the level.
 >
 > Open the **Sprite** menu and select **Paint**.
 >
-> ![The Paint option in the Choose a Sprite menu.](images/sprite-paint.png)
+> ![The Paint option in the Choose a Sprite menu.](images/sprite-paint.png){:width="200px"}
 
 ## Step 2
 
