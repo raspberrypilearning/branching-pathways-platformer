@@ -1,58 +1,35 @@
 ## 3A - Add platforms to match your backdrop
 
-Add a **platform** sprite with lines that match places in your backdrop where the **player** can stand and jump.
+
+**NOTE - this needs a backdrop first**
+
+Draw platforms to match the parts of your backdrop that your **player** can stand on.
 
 ## Step 1
 
 > [!TASK]
 >
-> Open the **Choose a Sprite** menu and select **Paint**.
+> Select the **platform** sprite in the sprite pane.
 >
-> ![The Paint option in the Choose a Sprite menu.](images/sprite-paint.png){:width="200px"}
+> ![The platform sprite selected in the sprite pane.](images/platform-sprite.png){:width="200px"}
 
 ## Step 2
 
 > [!TASK]
 >
-> In the **platform** sprite, draw a line that spans the entire lower edge of the Stage.
+> Open the **Costumes** tab.
 >
-> This is the floor. It stops the **player** falling off the bottom of the Stage.
+> ![The Costumes tab in Scratch.](images/costumes-tab.png){:width="450px"}
 
 ## Step 3
 
 > [!TASK]
 >
-> Draw horizontal lines in the **platform** sprite for the ledges and backdrop details where the **player** can stand.
+> Look at your backdrop for things your **player** can stand on, such as a table, shelf, branch or rock. Use a bright colour and draw a horizontal line on top of each one.
 >
-> Use a bright colour, such as pink, so you can see exactly where the platforms are.
->
-> The lines do not have to look like foreground platforms. Line them up with details in your backdrop, so a table, shelf, branch, or rock looks like it is acting as the platform.
->
-> ![Bright pink horizontal platform lines drawn in the platform sprite costume.](images/platform-lines-costume.png){:width="520px"}
->
-> ![Bright pink platform lines placed over backdrop details so the furniture appears to act as platforms.](images/platform-lines-backdrop.png){:width="520px"}
+> ![Bright pink platform lines drawn in the platform sprite costume, and the same lines over backdrop details on the Stage.](images/platform-lines.png){:width="600px"}
 
 ## Step 4
-
-> [!TASK]
->
-> In the sprite pane, change the sprite name to **platform**. Use this exact spelling so later steps can check whether the **player** is touching it.
-
-## Step 5
-
-> [!TASK]
->
-> Put the **platform** sprite in the centre of the Stage.
->
-> The platform lines should match the places where you want the **player** to stand.
->
-> > [!TIP]
-> >
-> > Once your platform lines are in the right places, you can make them invisible. In the **Costumes** tab, select the platform lines and set the fill and outline colours to transparent.
-> >
-> > This lets the **player** stand on the invisible **platform** sprite while the backdrop details look like the real platforms.
-
-## Step 6
 
 > [!TASK]
 >
@@ -60,7 +37,7 @@ Add a **platform** sprite with lines that match places in your backdrop where th
 >
 > ![The Code tab in Scratch.](images/code-tab.png){:width="450px"}
 
-## Step 7
+## Step 5
 
 > [!TASK]
 >
@@ -70,7 +47,7 @@ Add a **platform** sprite with lines that match places in your backdrop where th
 > +when green flag clicked
 > ```
 
-## Step 8
+## Step 6
 
 > [!TASK]
 >
@@ -81,10 +58,4 @@ Add a **platform** sprite with lines that match places in your backdrop where th
 > +show
 > ```
 
-## Test
-
-> [!TASK]
->
-> Click the green flag and check that the **platform** sprite lines appear where the **player** can stand or jump to them.
->
-> If you made the lines transparent, check that the **player** can still stand where the platform lines used to be.
+**Test:** Click the green flag and check that the **platform** sprite lines appear where the **player** can stand or jump to them.
