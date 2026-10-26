@@ -1,6 +1,6 @@
 ## 2A - Draw Player
 
-Draw a costume for the existing **player** sprite in the starter project.
+Draw a costume for your **player**.
 
 The **player** sprite already has code for gravity, jumping, and falling, so be careful not to delete it.
 
@@ -11,7 +11,7 @@ The **player** sprite already has code for gravity, jumping, and falling, so be 
 >
 > Select the **player** sprite in the sprite pane.
 >
-> ![Scratch Cat sprite selected in the sprite pain](images/player_sprite.png){:width="300px"}
+> ![Scratch Cat sprite selected in the sprite pain](images/player_sprite.png){:width="200px"}
 >
 
 ## Step 2
@@ -37,6 +37,8 @@ The **player** sprite already has code for gravity, jumping, and falling, so be 
 > [!TASK]
 >
 > Use the paint tools to draw a new character. Your player could be a person, robot, creature, animal, or simple shape.
+>
+> ![Paint tools](images/paint-tools.png){:width="200px"}
 
 
 ## Step 5

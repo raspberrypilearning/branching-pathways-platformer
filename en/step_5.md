@@ -1,17 +1,18 @@
 ## 2B - Upload Player
 
-Upload an image as a costume for the existing **player** sprite in the starter project.
+Upload a costume for your **player**.
 
-The **player** sprite already has code that handles gravity, jumping, and falling. Change the costume in these steps, but do not delete or change the code unless a later step tells you to, or the game might stop working properly.
+The **player** sprite already has code for gravity, jumping, and falling, so be careful not to delete it.
 
 
 ## Step 1
 
-Make sure you already have an image you want to use saved onto your computer.
+Make sure you have the image you want to use saved onto your computer.
 
 > [!TIP]
 >
-> try using one of these
+> You can try using one of these:
+>
 > [![Robot player sprite preview](images/example-sprite-player-robot.png){:width="300px"}](images/example-sprite-player-robot.png)
 >
 > [![Adventurer player sprite preview](images/example-sprite-player-adventurer.png){:width="300px"}](images/example-sprite-player-adventurer.png)

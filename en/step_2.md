@@ -24,7 +24,7 @@
 >
 > In the **Stage**, choose **Upload Backdrop** in the menu, and pick an image from your device.
 >
-> ![Scratch backdrop tool](images/backdrop-upload.png)
+> ![Scratch backdrop tool](images/backdrop-upload.png){:width="200px"}
 
 ## Step 3
 
@@ -32,7 +32,7 @@
 >
 > Use the paint tools to select and resize your a backdrop so that it fills the screen
 >
-> ![Scratch backdrop paint tool](images/backdrop-resize.gif)
+> ![Scratch backdrop paint tool](images/backdrop-resize.gif){:width="450px"}
 
 ## Step 4
 
@@ -40,4 +40,4 @@
 >
 > Name the backdrop so you can find it again later.
 >
-> ![Scratch backdrop paint tool](images/backdrop-name.png)
+> ![Scratch backdrop paint tool](images/backdrop-name.png){:width="200px"}

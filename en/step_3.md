@@ -6,7 +6,7 @@
 >
 > In the **Stage**, select **Choose a Backdrop** in the menu.
 >
-> ![Scratch backdrop select](images/backdrop-choose.png)
+> ![Scratch backdrop select](images/backdrop-choose.png){:width="200px"}
 
 ## Step 2
 
@@ -14,7 +14,7 @@
 >
 > Pick a backdrop.
 >
-> ![Scratch backdrop list](images/backdrop-list.png)
+> ![Scratch backdrop list](images/backdrop-list.png){:width="450px"}
 
 ## Step 3
 
@@ -22,4 +22,4 @@
 >
 > Name the backdrop so you can find it again later.
 >
-> ![Scratch backdrop paint tool](images/backdrop-name.png)
+> ![Scratch backdrop paint tool](images/backdrop-name.png){:width="200px"}

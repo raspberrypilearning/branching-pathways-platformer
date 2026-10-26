@@ -1,8 +1,8 @@
 ## 2C - Choose Inbuilt Player
 
-Choose a costume from the Scratch library for the existing **player** sprite in the starter project.
+Choose a costume for your **player** from the Scratch library.
 
-The **player** sprite already has code that handles gravity, jumping, and falling. Change the costume in these steps, but do not delete or change the code unless a later step tells you to, or the game might stop working properly.
+The **player** sprite already has code for gravity, jumping, and falling, so be careful not to delete it.
 
 ## Step 1
 
