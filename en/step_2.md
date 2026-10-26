@@ -4,12 +4,6 @@
 
 > [!TASK]
 >
-> Open the [Starter project](https://scratch.mit.edu/projects/1331945689/editor/){:target="_blank"}.
-
-## Step 2
-
-> [!TASK]
->
 > Make sure you already have an image you want to use saved onto your computer.
 >
 > [!TIP]
@@ -24,7 +18,7 @@
 >
 > [![Magical valley platform backdrop preview](images/magical-valley-backdrop.png){:width="420px"}](images/magical-valley-backdrop.png)
 
-## Step 3
+## Step 2
 
 > [!TASK]
 >
@@ -32,7 +26,7 @@
 >
 > ![Scratch backdrop tool](images/backdrop-upload.png)
 
-## Step 4
+## Step 3
 
 > [!TASK]
 >
@@ -40,7 +34,7 @@
 >
 > ![Scratch backdrop paint tool](images/backdrop-resize.gif)
 
-## Step 5
+## Step 4
 
 > [!TASK]
 >

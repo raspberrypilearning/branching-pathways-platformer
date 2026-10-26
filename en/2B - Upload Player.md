@@ -5,12 +5,6 @@ Upload an image as a costume for the existing **player** sprite in the starter p
 The **player** sprite already has code that handles gravity, jumping, and falling. Change the costume in these steps, but do not delete or change the code unless a later step tells you to, or the game might stop working properly.
 
 
-## Step 1
-
-> [!TASK]
->
-> Open the [Starter project](https://scratch.mit.edu/projects/1331945689/editor/){:target="_blank"}.
-
 ## Step 2
 
 Make sure you already have an image you want to use saved onto your computer.

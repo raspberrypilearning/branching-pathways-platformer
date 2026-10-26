@@ -4,18 +4,12 @@
 
 > [!TASK]
 >
-> Open the [Starter project](https://scratch.mit.edu/projects/1331945689/editor/){:target="_blank"}.
-
-## Step 2
-
-> [!TASK]
->
 > In the **Stage**, choose **Paint** in the backdrop menu.
 >
 > ![Scratch backdrop paint tool](images/backdrop-paint.png)
 
 
-## Step 3
+## Step 2
 
 > [!TASK]
 >
@@ -24,7 +18,7 @@
 > ![Scratch backdrop paint tool](images/backdrop-draw.png)
 
 
-## Step 4
+## Step 3
 
 > [!TASK]
 >

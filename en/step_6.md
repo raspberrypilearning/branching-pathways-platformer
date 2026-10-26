@@ -8,17 +8,11 @@ The **player** sprite already has code that handles gravity, jumping, and fallin
 
 > [!TASK]
 >
-> Open the [Starter project](https://scratch.mit.edu/projects/1331945689/editor/){:target="_blank"}.
-
-## Step 2
-
-> [!TASK]
->
 > Select the **player** sprite in the sprite pane.
 >
 > ![Scratch Cat sprite selected in the sprite pain](images/player_sprite.png)
 
-## Step 3
+## Step 2
 
 > [!TASK]
 >
@@ -26,7 +20,7 @@ The **player** sprite already has code that handles gravity, jumping, and fallin
 >
 > ![The Costumes tab in Scratch.](images/costumes-tab.png)
 
-## Step 4
+## Step 3
 
 > [!TASK]
 >
@@ -34,7 +28,7 @@ The **player** sprite already has code that handles gravity, jumping, and fallin
 >
 > ![The costume library in Scratch.](images/costume-list.png)
 
-## Step 5
+## Step 4
 
 > [!TASK]
 >
@@ -42,7 +36,7 @@ The **player** sprite already has code that handles gravity, jumping, and fallin
 >
 > For a classic platformer, a costume with legs, wheels, or a clear body shape is usually easier to understand as the player.
 
-## Step 6
+## Step 5
 
 > [!TASK]
 >
@@ -52,7 +46,7 @@ The **player** sprite already has code that handles gravity, jumping, and fallin
 > >
 > > Some Scratch library sprites with multiple costumes need you to add each costume one at a time. For example, **Unicorn** and some walking sprites need their individual costumes added separately.
 
-## Step 7
+## Step 6
 
 > [!TASK]
 >
@@ -61,7 +55,7 @@ The **player** sprite already has code that handles gravity, jumping, and fallin
 > ![Two Scratch cat costumes in costumes pane](images/cat_costumes.png)
 >
 
-## Step 8
+## Step 7
 
 > [!TASK]
 >

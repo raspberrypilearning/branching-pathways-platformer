@@ -7,12 +7,6 @@ The **player** sprite already has code that handles gravity, jumping, and fallin
 
 ## Step 1
 
-> [!TASK]
->
-> Open the [Starter project](https://scratch.mit.edu/projects/1331945689/editor/){:target="_blank"}.
-
-## Step 2
-
 Make sure you already have an image you want to use saved onto your computer.
 
 > [!TIP]
@@ -24,7 +18,7 @@ Make sure you already have an image you want to use saved onto your computer.
 >
 > [![Creature player sprite preview](images/example-sprite-player-creature.png){:width="300px"}](images/example-sprite-player-creature.png)
 
-## Step 3
+## Step 2
 
 > [!TASK]
 >
@@ -32,7 +26,7 @@ Make sure you already have an image you want to use saved onto your computer.
 >
 > ![Scratch Cat sprite selected in the sprite pain](images/player_sprite.png)
 
-## Step 4
+## Step 3
 
 > [!TASK]
 >
@@ -40,19 +34,19 @@ Make sure you already have an image you want to use saved onto your computer.
 >
 > ![The Costumes tab in Scratch.](images/costumes-tab.png)
 
-## Step 5
+## Step 4
 
 > [!TASK]
 >
 > Open the costume menu and choose the **Upload Costume** icon.
 
-## Step 6
+## Step 5
 
 > [!TASK]
 >
 > Select your player image from your computer. Scratch will add it as a new costume for the **player** sprite.
 
-## Step 7
+## Step 6
 
 > [!TASK]
 >
@@ -61,7 +55,7 @@ Make sure you already have an image you want to use saved onto your computer.
 > ![Two Scratch cat costumes in costumes pane](images/cat_costumes.png)
 >
 
-## Step 8
+## Step 7
 
 > [!TASK]
 >

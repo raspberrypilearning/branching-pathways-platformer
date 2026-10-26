@@ -1,11 +1,5 @@
 <h2 class="c-project-heading--task">1B - Upload Backdrop</h2>
 
-## Step 1
-
-> [!TASK]
->
-> Open the [Starter project](https://scratch.mit.edu/projects/1331945689/editor/){:target="_blank"}.
-
 ## Step 2
 
 > [!TASK]
