@@ -1,79 +1,96 @@
 ## 2C - Choose Inbuilt Player
 
-Choose a costume from the Scratch library for the existing **player** sprite in the starter project.
+Choose a costume for your **player** from the Scratch library.
 
-The **player** sprite already has code that handles gravity, jumping, and falling. Change the costume in these steps, but do not delete or change the code unless a later step tells you to, or the game might stop working properly.
+The **player** sprite already has code for gravity, jumping, and falling, so be careful not to delete it.
 
-## Step 2
+## Step 1
 
 > [!TASK]
 >
 > Select the **player** sprite in the sprite pane.
 >
-> ![Scratch Cat sprite selected in the sprite pain](images/player_sprite.png)
+> ![Scratch Cat sprite selected in the sprite pain](images/player_sprite.png){:width="200px"}
 
-## Step 3
+## Step 2
 
 > [!TASK]
 >
 > Open the **Costumes** tab.
 >
-> ![The Costumes tab in Scratch.](images/costumes-tab.png)
+> ![The Costumes tab in Scratch.](images/costumes-tab.png){:width="450px"}
+
+## Step 3
+
+> [!TASK]
+>
+> Select **Choose a Costume**.
+>
+> ![The Choose a Costume icon in Scratch.](images/choose-costume.png){:width="250px"}
+
 
 ## Step 4
 
 > [!TASK]
 >
-> Open the costume menu and select **Choose a Costume**.
+> Pick a costume from the Scratch library. 
 >
-> ![The costume library in Scratch.](images/costume-list.png)
+> ![The costume library in Scratch.](images/costume-list.png){:width="450px"}
 
 ## Step 5
 
 > [!TASK]
 >
-> Pick a costume from the Scratch library. Choose one that is clear, easy to see, and a good fit for the world of your platformer.
+> Delete the other costume.
 >
-> For a classic platformer, a costume with legs, wheels, or a clear body shape is usually easier to understand as the player.
+> ![Deleting a costume in Scratch.](images/delete-costume2.gif){:width="200px"}
 
 ## Step 6
 
 > [!TASK]
 >
-> Add the costume to the **player** sprite. If the **player** already has another costume, keep it because you may be able to use it for an animation later.
+> Click on the **Code** tab.
 >
-> > [!TIP]
-> >
-> > Some Scratch library sprites with multiple costumes need you to add each costume one at a time. For example, **Unicorn** and some walking sprites need their individual costumes added separately.
+> ![The Code tab in Scratch.](images/code-tab.png){:width="450px"}
 
 ## Step 7
 
 > [!TASK]
 >
-> Delete the **Cat-a** and **Cat-b** costumes.
+> Set the `x: y:`{:class="block3motion"} position and `direction`{:class="block3motion"} of your player. When the green flag is clicked, your player will go back to this starting position.
 >
-> ![Two Scratch cat costumes in costumes pane](images/cat_costumes.png)
->
-
-## Step 8
-
-> [!TASK]
->
-> On the **Code** tab, add blocks to set the starting position of your player. You can change this later
 > ```blocks3
 > when flag clicked
 > go to x: (-200) y: (-120)
 > point in direction (90)
 > ```
+
+
+## Step 8
+
+> [!TASK]
 >
-> The `point in direction (90)`{:class="block3motion"} block makes the **player** face right. If your **player** starts on the right side of the screen, change the direction to `-90` so it faces left.
+> Use the dial to choose which way your player faces when the game starts.
+> 
+> ![The direction dial in Scratch.](images/direction.gif){:width="450px"}
+
+
+## Step 9
+
+> [!TASK]
 >
-> > [!TIP]
-> >
-> > Start the **player** a small way above the floor so it drops down and lands on top. Do not place it directly on the floor: if it spawns too low and overlaps the floor sprite, even slightly, the **player** gets stuck inside it and the game breaks.
+> Change the `size`{:class="block3looks"} of your player to make it the right size for your game.
+>
+> ```blocks3
+> when flag clicked
+> go to x: (-200) y: (-120)
+> point in direction (90)
+> + set size to (70) %
+> ```
+
 
 ## Test
 
 > [!TASK]
 >
-> Check that the **player** sprite shows your chosen costume on the Stage and is easy to see against your backdrop.
+> Check that the **player** sprite shows your new costume on the Stage.

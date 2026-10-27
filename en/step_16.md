@@ -33,6 +33,8 @@ Upload an image and use it as the **Exit** sprite, the way to finish the level.
 > [!TASK]
 >
 > In the sprite pane, change the sprite name to **Exit**. Use this exact spelling so later steps can refer to the same sprite.
+>
+> ![Naming the sprite Exit.](images/Exit.png){:width="450px"}
 
 ## Step 5
 

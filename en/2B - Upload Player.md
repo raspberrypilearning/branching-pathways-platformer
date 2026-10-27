@@ -1,79 +1,108 @@
 ## 2B - Upload Player
 
-Upload an image as a costume for the existing **player** sprite in the starter project.
+Upload a costume for your **player**.
 
-The **player** sprite already has code that handles gravity, jumping, and falling. Change the costume in these steps, but do not delete or change the code unless a later step tells you to, or the game might stop working properly.
+The **player** sprite already has code for gravity, jumping, and falling, so be careful not to delete it.
 
 
-## Step 2
+## Step 1
 
-Make sure you already have an image you want to use saved onto your computer.
+Make sure you have the image you want to use saved onto your computer.
 
 > [!TIP]
 >
-> try using one of these
+> You can try using one of these:
+>
 > [![Robot player sprite preview](images/example-sprite-player-robot.png){:width="300px"}](images/example-sprite-player-robot.png)
 >
 > [![Adventurer player sprite preview](images/example-sprite-player-adventurer.png){:width="300px"}](images/example-sprite-player-adventurer.png)
 >
 > [![Creature player sprite preview](images/example-sprite-player-creature.png){:width="300px"}](images/example-sprite-player-creature.png)
 
-## Step 3
+## Step 2
 
 > [!TASK]
 >
 > Select the **player** sprite in the sprite pane.
 >
-> ![Scratch Cat sprite selected in the sprite pain](images/player_sprite.png)
+> ![Scratch Cat sprite selected in the sprite pain](images/player_sprite.png){:width="200px"}
 
-## Step 4
+## Step 3
 
 > [!TASK]
 >
 > Open the **Costumes** tab.
 >
-> ![The Costumes tab in Scratch.](images/costumes-tab.png)
+> ![The Costumes tab in Scratch.](images/costumes-tab.png){:width="450px"}
+
+## Step 4
+
+> [!TASK]
+>
+> Choose the **Upload Costume** icon.
+>
+> ![The Upload Costume icon in Scratch.](images/upload-costume.png){:width="250px"}
 
 ## Step 5
 
 > [!TASK]
 >
-> Open the costume menu and choose the **Upload Costume** icon.
+> Select the image file from your computer. Scratch will add it as a new costume.
 
 ## Step 6
 
 > [!TASK]
 >
-> Select your player image from your computer. Scratch will add it as a new costume for the **player** sprite.
+> Delete the other costume.
+>
+> ![Deleting a costume in Scratch.](images/delete-costume.gif){:width="200px"}
 
 ## Step 7
 
 > [!TASK]
 >
-> Delete the **Cat-a** and **Cat-b** costumes.
+> Click on the **Code** tab.
 >
-> ![Two Scratch cat costumes in costumes pane](images/cat_costumes.png)
->
+> ![The Code tab in Scratch.](images/code-tab.png){:width="450px"}
 
 ## Step 8
 
 > [!TASK]
 >
-> On the **Code** tab, add blocks to set the starting position of your player. You can change this later
+> Set the `x: y:`{:class="block3motion"} position and `direction`{:class="block3motion"} of your player. When the green flag is clicked, your player will go back to this starting position.
+>
 > ```blocks3
 > when flag clicked
 > go to x: (-200) y: (-120)
 > point in direction (90)
 > ```
+
+
+## Step 9
+
+> [!TASK]
 >
-> The `point in direction (90)`{:class="block3motion"} block makes the **player** face right. If your **player** starts on the right side of the screen, change the direction to `-90` so it faces left.
+> Use the dial to choose which way your player faces when the game starts.
+> 
+> ![The direction dial in Scratch.](images/direction.gif){:width="450px"}
+
+
+## Step 10
+
+> [!TASK]
 >
-> > [!TIP]
-> >
-> > Start the **player** a small way above the floor so it drops down and lands on top. Do not place it directly on the floor: if it spawns too low and overlaps the floor sprite, even slightly, the **player** gets stuck inside it and the game breaks.
+> Change the `size`{:class="block3looks"} of your player to make it the right size for your game.
+>
+> ```blocks3
+> when flag clicked
+> go to x: (-200) y: (-120)
+> point in direction (90)
+> + set size to (70) %
+> ```
+
 
 ## Test
 
 > [!TASK]
 >
-> Check that the **player** sprite shows your uploaded costume on the Stage. If it is too large, change the **Size** number in the sprite pane to make it smaller.
+> Check that the **player** sprite shows your new costume on the Stage.

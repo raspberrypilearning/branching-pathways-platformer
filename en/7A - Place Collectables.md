@@ -18,23 +18,31 @@ Place collectables exactly where you want the player to find them.
 
 > [!TASK]
 >
-> Make sure you have a `Score` variable.
+> In the `variable`{:class="block3variables"} menu click **Make a Variable**.
 >
-> Make `Score` for all sprites.
->
-> Use this exact name so the blocks below match.
+> ![The Make a Variable button in Scratch.](images/make-variable.png){:width="250px"}
 
 ## Step 3
 
 > [!TASK]
 >
-> Select the collectable sprite and add a script that starts when the green flag is clicked.
+> Name the variable `Score`, and make it for all sprites.
+>
+> Use this exact name so the blocks below match.
+>
+> ![Naming the Score variable.](images/score-variable.png){:width="350px"}
+
+## Step 4
+
+> [!TASK]
+>
+> Select the collectable sprite and add a green flag block.
 >
 > ```blocks3
 > +when green flag clicked
 > ```
 
-## Step 4
+## Step 5
 
 > [!TASK]
 >
@@ -49,7 +57,7 @@ Place collectables exactly where you want the player to find them.
 > +create clone of (myself v)
 > ```
 
-## Step 5
+## Step 6
 
 > [!TASK]
 >
@@ -68,11 +76,11 @@ Place collectables exactly where you want the player to find them.
 > +create clone of (myself v)
 > ```
 
-## Step 6
+## Step 7
 
 > [!TASK]
 >
-> Add `go to [front v] layer`{:class="block3looks"} so they appear in front of any platforms and then add a `hide`{:class="block3looks"} block to the bottom of the green flag script so the original sprite disappears after it has made all the clones.
+> Add `go to [front v] layer`{:class="block3looks"} so they appear in front of any platforms and then add a `hide`{:class="block3looks"} block to the bottom of the blocks so the original sprite disappears after it has made all the clones.
 >
 > ```blocks3
 > when green flag clicked
@@ -87,17 +95,17 @@ Place collectables exactly where you want the player to find them.
 > +hide
 > ```
 
-## Step 7
+## Step 8
 
 > [!TASK]
 >
-> Add a second script to the collectable sprite that starts when each clone is created.
+> Add a `when I start as a clone`{:class="block3control"} block to the collectable sprite.
 >
 > ```blocks3
 > +when I start as a clone
 > ```
 
-## Step 8
+## Step 9
 
 > [!TASK]
 >
@@ -109,7 +117,7 @@ Place collectables exactly where you want the player to find them.
 > +show
 > ```
 
-## Step 9
+## Step 10
 
 > [!TASK]
 >
@@ -125,7 +133,7 @@ Place collectables exactly where you want the player to find them.
 > +end
 > ```
 
-## Step 10
+## Step 11
 
 > [!TASK]
 >

@@ -14,11 +14,9 @@ Make the **player** follow the mouse on the x-axis.
 >
 > Open the **Code** tab.
 >
-> ![The Code tab in Scratch.](images/code-tab.png)
+> ![The Code tab in Scratch.](images/code-tab.png){:width="450px"}
 
-The starter project already includes an `Up Down Helper` block, and the **player** setup script with these **player** variables:
-
-`x speed`{:class="block3variables"}, `y speed`{:class="block3variables"}, `gravity`{:class="block3variables"}, `jump strength`{:class="block3variables"}, `move speed`{:class="block3variables"}, `on ground`, `vertical steps`{:class="block3variables"}
+The starter project already includes the `x speed`{:class="block3variables"} variable you will need.
 
 ## Step 3
 
@@ -30,8 +28,8 @@ The starter project already includes an `Up Down Helper` block, and the **player
 > when green flag clicked
 > go to x: (-200) y: (-120)
 > +forever
-> +point towards (mouse-pointer v)
-> +end
+> point towards (mouse-pointer v)
+> end
 > ```
 
 ## Step 4
@@ -47,7 +45,7 @@ The starter project already includes an `Up Down Helper` block, and the **player
 > point towards (mouse-pointer v)
 > +set [x speed v] to ((mouse x) - (x position))
 > +change x by (x speed)
-> +end
+> end
 > ```
 
 ## Test
@@ -64,7 +62,7 @@ The starter project already includes an `Up Down Helper` block, and the **player
 
 > [!TASK]
 >
-> Slow the sprite down by dividing its speed by `10`:
+> Slow the sprite down by dividing its speed by `10`
 >
 > ```blocks3
 > when green flag clicked

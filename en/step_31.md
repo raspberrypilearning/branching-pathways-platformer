@@ -8,7 +8,13 @@ Add a sprint key so the **player** moves faster while `shift` is held.
 >
 > Find the `forever`{:class="block3control"} block that moves your **player**.
 >
-> If your movement uses `move speed`{:class="block3variables"}, make a new variable called `sprint speed` for the **player** sprite.
+> If your movement uses `move speed`{:class="block3variables"}, make a new variable called `sprint speed`{:class="block3variables"} for the **player** sprite.
+>
+> ![The Make a Variable button in Scratch.](images/make-variable.png){:width="250px"}
+
+## Step 2
+
+> [!TASK]
 >
 > Set `sprint speed`{:class="block3variables"} to a number bigger than `move speed`{:class="block3variables"} in your starting block.
 >
@@ -18,7 +24,7 @@ Add a sprint key so the **player** moves faster while `shift` is held.
 > +set [sprint speed v] to (8)
 > ```
 
-## Step 2
+## Step 3
 
 > [!TASK]
 >
@@ -48,7 +54,7 @@ Add a sprint key so the **player** moves faster while `shift` is held.
 >
 > This makes the **player** speed up while `shift` is held and slow back down when you release it.
 
-## Step 3
+## Step 4
 
 > [!TASK]
 >

@@ -16,15 +16,13 @@ Make the **player** keep moving, and use the arrow keys to change direction.
 >
 > ![The Code tab in Scratch.](images/code-tab.png){:width="450px"}
 
-The starter project already includes an `Up Down Helper` block, and the **player** setup block with these **player** variables:
-
-`x speed`{:class="block3variables"}, `y speed`{:class="block3variables"}, `gravity`{:class="block3variables"}, `jump strength`{:class="block3variables"}, `move speed`{:class="block3variables"}, `on ground`, `vertical steps`{:class="block3variables"}
+The starter project already includes the `x speed`{:class="block3variables"} and `move speed`{:class="block3variables"} variables you will need.
 
 ## Step 3
 
 > [!TASK]
 >
-> Add a block to set the sprite's speed and then use a `forever`{:class="block3control"} loop to start it moving
+> Set `x speed`{:class="block3variables"} to `move speed`{:class="block3variables"}, then add a `forever`{:class="block3control"} loop to start the **player** moving.
 >
 > ```blocks3
 > when green flag clicked
@@ -39,7 +37,9 @@ The starter project already includes an `Up Down Helper` block, and the **player
 
 > [!TASK]
 >
-> At the moment the sprite will alway move to the right. Add an `if`{:class="block3control"} block so that the sprite changes its speed and direction when the left key is pressed
+> At the moment the **player** will always move to the right. 
+>
+> Add an `if`{:class="block3control"} block so that the **player** changes speed and direction when the `left arrow`{:class="block3sensing"} key is pressed.
 > 
 > ```blocks3
 > when green flag clicked
@@ -53,14 +53,16 @@ The starter project already includes an `Up Down Helper` block, and the **player
 > change x by (x speed)
 > end
 > ```
+>
+> > [!TIP]
+> >
+> > If your **player** faces the wrong way, swap `90` and `-90`.
 
 ## Step 5
 
 > [!TASK]
 >
-> Add another `if`{:class="block3control"} block to change direction back again
->
-> At the moment the sprite will alway move to the right. Add an `if`{:class="block3control"} block so that the sprite changes its speed and direction when the left key is pressed
+> Add another `if`{:class="block3control"} block to change direction back again when the `right arrow`{:class="block3sensing"} key is pressed.
 > 
 > ```blocks3
 > when green flag clicked
@@ -72,7 +74,7 @@ The starter project already includes an `Up Down Helper` block, and the **player
 > set [x speed v] to ((0)-(move speed))
 > end
 > +if <key (right arrow v) pressed?> then
-> point in direction (-90)
+> point in direction (90)
 > set [x speed v] to (move speed)
 > end
 > change x by (x speed)
@@ -83,8 +85,6 @@ The starter project already includes an `Up Down Helper` block, and the **player
 
 > [!TASK]
 >
-> Click the green flag and check that the **player** starts moving.
->
-> Press the arrow keys to change direction.
+> Click the green flag and check the arrow keys change the direction.
 >
 > You can change the value of `move speed`{:class="block3variables"} if you want the sprite to move faster or slower.

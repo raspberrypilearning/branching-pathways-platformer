@@ -89,4 +89,8 @@ The **player** sprite already has code for gravity, jumping, and falling, so be 
 > ```
 
 
-**Test:** Check that the **player** sprite shows your new costume on the Stage. 
+## Test
+
+> [!TASK]
+>
+> Check that the **player** sprite shows your new costume on the Stage.

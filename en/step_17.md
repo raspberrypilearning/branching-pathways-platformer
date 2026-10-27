@@ -23,6 +23,8 @@ Choose a sprite from the Scratch library and use it as the **Exit** - the way to
 > [!TASK]
 >
 > In the sprite pane, change the sprite name to **Exit**. Use this exact spelling so later steps can refer to the same sprite.
+>
+> ![Naming the sprite Exit.](images/Exit.png){:width="450px"}
 
 ## Step 4
 

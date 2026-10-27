@@ -18,25 +18,35 @@ Make collectables drop from random positions and land on the **platform** sprite
 
 > [!TASK]
 >
-> Make sure you have these variables:
+> You will need these variables: `last_x`, `min_distance`, and `position_ok`. The collectable sprite uses them to choose and space out the clones.
 >
-> `Score`, `last_x`, `min_distance`, and `position_ok`
->
-> Make `Score` for all sprites. The other variables are used by the collectable sprite to choose and space out the clones.
->
-> Use these exact names so the blocks below match.
+> You will also need a `Score` variable if you do not have one already.
 
 ## Step 3
 
 > [!TASK]
 >
-> Select the collectable sprite and add a script that starts when the green flag is clicked.
+> In the `variable`{:class="block3variables"} menu click **Make a Variable** to make each one:
+>
+> `last_x`, `min_distance`, `position_ok`, and `Score` if you do not have it.
+>
+> Make `Score` for all sprites.
+>
+> Use these exact names so the blocks below match.
+>
+> ![The Make a Variable button in Scratch.](images/make-variable.png){:width="250px"}
+
+## Step 4
+
+> [!TASK]
+>
+> Select the collectable sprite and add a green flag block.
 >
 > ```blocks3
 > +when green flag clicked
 > ```
 
-## Step 4
+## Step 5
 
 > [!TASK]
 >
@@ -53,7 +63,7 @@ Make collectables drop from random positions and land on the **platform** sprite
 > +set [position_ok v] to (0)
 > ```
 
-## Step 5
+## Step 6
 
 > [!TASK]
 >
@@ -72,7 +82,7 @@ Make collectables drop from random positions and land on the **platform** sprite
 > +end
 > ```
 
-## Step 6
+## Step 7
 
 > [!TASK]
 >
@@ -94,7 +104,7 @@ Make collectables drop from random positions and land on the **platform** sprite
 > end
 > ```
 
-## Step 7
+## Step 8
 
 > [!TASK]
 >
@@ -121,7 +131,7 @@ Make collectables drop from random positions and land on the **platform** sprite
 > end
 > ```
 
-## Step 8
+## Step 9
 
 > [!TASK]
 >
@@ -152,7 +162,7 @@ Make collectables drop from random positions and land on the **platform** sprite
 > end
 > ```
 
-## Step 9
+## Step 10
 
 > [!TASK]
 >
@@ -182,7 +192,7 @@ Make collectables drop from random positions and land on the **platform** sprite
 > end
 > ```
 
-## Step 10
+## Step 11
 
 > [!TASK]
 >
@@ -214,17 +224,17 @@ Make collectables drop from random positions and land on the **platform** sprite
 > end
 > ```
 
-## Step 11
+## Step 12
 
 > [!TASK]
 >
-> Add a second script to the collectable sprite that starts when each clone is created.
+> Add a `when I start as a clone`{:class="block3control"} block to the collectable sprite.
 >
 > ```blocks3
 > +when I start as a clone
 > ```
 
-## Step 12
+## Step 13
 
 > [!TASK]
 >
@@ -239,7 +249,7 @@ Make collectables drop from random positions and land on the **platform** sprite
 > +end
 > ```
 
-## Step 13
+## Step 14
 
 > [!TASK]
 >
@@ -257,7 +267,7 @@ Make collectables drop from random positions and land on the **platform** sprite
 > +end
 > ```
 
-## Step 14
+## Step 15
 
 > [!TASK]
 >

@@ -6,9 +6,9 @@ Make the player win when their **Score** reaches a target value.
 
 > [!TASK]
 >
-> Make sure you have a variable called `Score`.
+> In the `variable`{:class="block3variables"} menu click **Make a Variable**.
 >
-> Set it up for **all sprites** so the Stage and other sprites can use it.
+> ![The Make a Variable button in Scratch.](images/make-variable.png){:width="250px"}
 >
 > > [!TIP]
 > >
@@ -18,13 +18,23 @@ Make the player win when their **Score** reaches a target value.
 
 > [!TASK]
 >
+> Name the variable `Score`, and make it for all sprites.
+>
+> Use this exact name so the blocks below match.
+>
+> ![Naming the Score variable.](images/score-variable.png){:width="350px"}
+
+## Step 3
+
+> [!TASK]
+>
 > Select the **Stage** and add a green flag block.
 >
 > ```blocks3
 > +when green flag clicked
 > ```
 
-## Step 3
+## Step 4
 
 > [!TASK]
 >
@@ -35,7 +45,7 @@ Make the player win when their **Score** reaches a target value.
 > +set [Score v] to (0)
 > ```
 
-## Step 4
+## Step 5
 
 > [!TASK]
 >
@@ -48,7 +58,7 @@ Make the player win when their **Score** reaches a target value.
 > +end
 > ```
 
-## Step 5
+## Step 6
 
 > [!TASK]
 >
@@ -65,7 +75,7 @@ Make the player win when their **Score** reaches a target value.
 > end
 > ```
 
-## Step 6
+## Step 7
 
 > [!TASK]
 >
@@ -81,7 +91,7 @@ Make the player win when their **Score** reaches a target value.
 > end
 > ```
 
-## Step 7
+## Step 8
 
 > [!TASK]
 >
@@ -97,7 +107,7 @@ Make the player win when their **Score** reaches a target value.
 > +stop [all v]
 > ```
 
-## Step 8
+## Step 9
 
 > [!TASK]
 >

@@ -14,9 +14,9 @@ To draw fancier platforms and montage other images, you can use an editor on you
 
 > [!TASK]
 >
-> Draw a block that spans the entire lower edge of your image, along the bottom of the Stage.
+> Draw a new **floor** along the bottom of your image.
 >
-> This is the floor. It stops the **player** falling off the bottom of the Stage.
+> The **floor** stops your **player** falling off the bottom of the Stage, so make sure it spans the whole bottom edge and has a straight, horizontal top.
 
 ## Step 3
 
@@ -36,11 +36,41 @@ To draw fancier platforms and montage other images, you can use an editor on you
 
 > [!TASK]
 >
-> Upload a new sprite and choose the image you've drawn. Rename it to **platform**
+> Select the **platform** sprite in the sprite pane.
 >
-> ![Upload sprite menu.](images/sprite-upload.png){:width="200px"}
+> ![The platform sprite selected in the sprite pane.](images/platform-sprite.png){:width="200px"}
 
 ## Step 6
+
+> [!TASK]
+>
+> Open the **Costumes** tab.
+>
+> ![The Costumes tab in Scratch.](images/costumes-tab.png){:width="450px"}
+
+## Step 7
+
+> [!TASK]
+>
+> Choose the **Upload Costume** icon.
+>
+> ![The Upload Costume icon in Scratch.](images/upload-costume.png){:width="250px"}
+
+## Step 8
+
+> [!TASK]
+>
+> Select the image file you drew. Scratch will add it as a new costume.
+
+## Step 9
+
+> [!TASK]
+>
+> Delete the other costume.
+>
+> ![Deleting a costume in Scratch.](images/delete-costume.gif){:width="200px"}
+
+## Step 10
 
 > [!TASK]
 >
@@ -49,5 +79,4 @@ To draw fancier platforms and montage other images, you can use an editor on you
 > > [!TIP]
 > >
 > > Make sure the top of each platform is completely flat. If the top edge has bumps or stray pixels, the **player** can catch on them and stop moving smoothly.
-> >
-> > Use the eraser to flatten the top edge, or crop your uploaded image so the top is flat.
+

@@ -101,4 +101,8 @@ Make sure you have the image you want to use saved onto your computer.
 > ```
 
 
-**Test:** Check that the **player** sprite shows your new costume on the Stage. 
+## Test
+
+> [!TASK]
+>
+> Check that the **player** sprite shows your new costume on the Stage.

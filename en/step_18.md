@@ -18,13 +18,21 @@ Place collectables exactly where you want the player to find them.
 
 > [!TASK]
 >
-> Make sure you have a `Score` variable.
+> In the `variable`{:class="block3variables"} menu click **Make a Variable**.
 >
-> Make `Score` for all sprites.
->
-> Use this exact name so the blocks below match.
+> ![The Make a Variable button in Scratch.](images/make-variable.png){:width="250px"}
 
 ## Step 3
+
+> [!TASK]
+>
+> Name the variable `Score`, and make it for all sprites.
+>
+> Use this exact name so the blocks below match.
+>
+> ![Naming the Score variable.](images/score-variable.png){:width="350px"}
+
+## Step 4
 
 > [!TASK]
 >
@@ -34,7 +42,7 @@ Place collectables exactly where you want the player to find them.
 > +when green flag clicked
 > ```
 
-## Step 4
+## Step 5
 
 > [!TASK]
 >
@@ -49,7 +57,7 @@ Place collectables exactly where you want the player to find them.
 > +create clone of (myself v)
 > ```
 
-## Step 5
+## Step 6
 
 > [!TASK]
 >
@@ -68,7 +76,7 @@ Place collectables exactly where you want the player to find them.
 > +create clone of (myself v)
 > ```
 
-## Step 6
+## Step 7
 
 > [!TASK]
 >
@@ -87,7 +95,7 @@ Place collectables exactly where you want the player to find them.
 > +hide
 > ```
 
-## Step 7
+## Step 8
 
 > [!TASK]
 >
@@ -97,7 +105,7 @@ Place collectables exactly where you want the player to find them.
 > +when I start as a clone
 > ```
 
-## Step 8
+## Step 9
 
 > [!TASK]
 >
@@ -109,7 +117,7 @@ Place collectables exactly where you want the player to find them.
 > +show
 > ```
 
-## Step 9
+## Step 10
 
 > [!TASK]
 >
@@ -125,7 +133,7 @@ Place collectables exactly where you want the player to find them.
 > +end
 > ```
 
-## Step 10
+## Step 11
 
 > [!TASK]
 >

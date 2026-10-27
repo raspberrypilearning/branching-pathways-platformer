@@ -1,30 +1,40 @@
 ## 3B - Draw foreground platforms
 
-Draw visible foreground platforms in one **platform** sprite so the **player** has places to stand and jump.
+Draw platforms so the **player** has places to stand and jump.
 
 ## Step 1
 
 > [!TASK]
 >
-> Open the **Choose a Sprite** menu and select **Paint**.
+> Select the **platform** sprite in the sprite pane.
 >
-> ![The Paint option in the Choose a Sprite menu.](images/sprite-paint.png){:width="200px"}
+> ![The platform sprite selected in the sprite pane.](images/platform-sprite.png){:width="200px"}
 
 ## Step 2
 
 > [!TASK]
 >
-> In the **platform** sprite, draw a block that spans the entire lower edge of the Stage.
+> Open the **Costumes** tab.
 >
-> This is the floor. It gives the **player** solid ground to stand on and stops them falling off the bottom of the Stage.
->
-> Give the floor a straight, horizontal top.
+> ![The Costumes tab in Scratch.](images/costumes-tab.png){:width="450px"}
 
 ## Step 3
 
 > [!TASK]
 >
-> Draw the foreground platforms in the **platform** sprite.
+> You can redraw the **floor** along the bottom of the Stage. Select it with the arrow tool, click **Delete**, then use the paint tools to draw a new one.
+>
+> ![Deleting the floor in the costume editor.](images/delete-floor.gif){:width="450px"}
+>
+> The **floor** stops your **player** falling off the bottom of the Stage, so make sure your new floor spans the whole bottom edge and has a straight, horizontal top.
+
+## Step 4
+
+> [!TASK]
+>
+> Use the paint tools to draw platforms in the **platform** sprite for your **player** to jump on to.
+>
+> ![Paint tools](images/paint-tools.png){:width="200px"}
 >
 > The place where the **player** stands must have a straight, horizontal top.
 >
@@ -33,26 +43,8 @@ Draw visible foreground platforms in one **platform** sprite so the **player** h
 > > [!TIP]
 > >
 > > You can also copy and paste platform images into the paint editor, then arrange them where you want them.
-> >
-> > If you paste an image, crop or delete any empty pixels around it so the artwork fits tightly around the platform.
-
-## Step 4
-
-> [!TASK]
->
-> In the sprite pane, change the sprite name to **platform**.
->
-> Use this exact spelling so later steps can check whether the **player** is touching the **platform** sprite.
 
 ## Step 5
-
-> [!TASK]
->
-> Put the **platform** sprite in the centre of the Stage.
->
-> The foreground platform drawings should match the places where you want the **player** to stand.
-
-## Step 6
 
 > [!TASK]
 >
@@ -60,7 +52,7 @@ Draw visible foreground platforms in one **platform** sprite so the **player** h
 >
 > ![The Code tab in Scratch.](images/code-tab.png){:width="450px"}
 
-## Step 7
+## Step 6
 
 > [!TASK]
 >
@@ -70,7 +62,7 @@ Draw visible foreground platforms in one **platform** sprite so the **player** h
 > +when green flag clicked
 > ```
 
-## Step 8
+## Step 7
 
 > [!TASK]
 >

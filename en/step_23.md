@@ -6,11 +6,21 @@ Make the player win only after collecting a key and reaching the **Exit**.
 
 > [!TASK]
 >
-> Make sure you have a variable called `has key`.
+> In the `variable`{:class="block3variables"} menu click **Make a Variable**.
 >
-> Set it up for all sprites so the Stage, **Key**, and **Exit** sprites can all use it.
+> ![The Make a Variable button in Scratch.](images/make-variable.png){:width="250px"}
 
 ## Step 2
+
+> [!TASK]
+>
+> Name the variable `has key`, and make it for all sprites so the Stage, **Key**, and **Exit** sprites can all use it.
+>
+> Use this exact name so the blocks below match.
+>
+> ![Naming the has key variable.](images/key-variable.png){:width="350px"}
+
+## Step 3
 
 > [!TASK]
 >
@@ -20,7 +30,7 @@ Make the player win only after collecting a key and reaching the **Exit**.
 >
 > ![An exit door sprite.](images/exit-door.png){:width="300px"}
 
-## Step 3
+## Step 4
 
 > [!TASK]
 >
@@ -31,7 +41,7 @@ Make the player win only after collecting a key and reaching the **Exit**.
 > set [has key v] to [0]
 > ```
 
-## Step 4
+## Step 5
 
 > [!TASK]
 >
@@ -48,7 +58,7 @@ Make the player win only after collecting a key and reaching the **Exit**.
 > end
 > ```
 
-## Step 5
+## Step 6
 
 > [!TASK]
 >
@@ -62,7 +72,7 @@ Make the player win only after collecting a key and reaching the **Exit**.
 > end
 > ```
 
-## Step 6
+## Step 7
 
 > [!TASK]
 >
@@ -79,7 +89,7 @@ Make the player win only after collecting a key and reaching the **Exit**.
 > end
 > ```
 
-## Step 7
+## Step 8
 
 > [!TASK]
 >
@@ -100,7 +110,7 @@ Make the player win only after collecting a key and reaching the **Exit**.
 > end
 > ```
 
-## Step 8
+## Step 9
 
 > [!TASK]
 >
@@ -116,7 +126,7 @@ Make the player win only after collecting a key and reaching the **Exit**.
 > +stop [all v]
 > ```
 
-## Step 9
+## Step 10
 
 > [!TASK]
 >

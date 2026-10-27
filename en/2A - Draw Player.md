@@ -1,77 +1,92 @@
 ## 2A - Draw Player
 
-Draw your own costume for the existing **player** sprite in the starter project.
+Draw a costume for your **player**.
 
-The **player** sprite already has code that handles gravity, jumping, and falling. Change the costume in these steps, but do not delete or change the code unless a later step tells you to, or the game might stop working properly.
+The **player** sprite already has code for gravity, jumping, and falling, so be careful not to delete it.
 
-## Step 2
+
+## Step 1
 
 > [!TASK]
 >
 > Select the **player** sprite in the sprite pane.
 >
-> ![Scratch Cat sprite selected in the sprite pain](images/player_sprite.png)
+> ![Scratch Cat sprite selected in the sprite pain](images/player_sprite.png){:width="200px"}
 >
 
-## Step 3
+## Step 2
 
 > [!TASK]
 >
 > Open the **Costumes** tab.
 >
-> ![The Costumes tab in Scratch.](images/costumes-tab.png)
+> ![The Costumes tab in Scratch.](images/costumes-tab.png){:width="450px"}
+
+
+## Step 3
+
+> [!TASK]
+>
+> Select the arrow tool and delete the starter costume. 
+>
+> ![The Paint option in the costume menu.](images/delete-sprite.gif){:width="450px"}
 
 
 ## Step 4
 
 > [!TASK]
 >
-> Open the costume menu and select **Paint** to add a new costume to the **player** sprite.
+> Use the paint tools to draw a new character. Your player could be a person, robot, creature, animal, or simple shape.
 >
-> ![The Paint option in the costume menu.](images/costume_paint.png)
+> ![Paint tools](images/paint-tools.png){:width="200px"}
+
 
 ## Step 5
 
 > [!TASK]
 >
-> Draw a character for your platformer. Your player could be a person, robot, creature, animal, or simple shape.
+> Click on the **Code** tab.
 >
-> Use a clear outline and colours that stand out from your backdrop. Keep the design easy to recognise when it is small on the Stage.
+> ![The Code tab in Scratch.](images/code-tab.png){:width="450px"}
 
 ## Step 6
 
 > [!TASK]
 >
-> Delete the **Cat-a** and **Cat-b** costumes.
+> Set the `x: y:`{:class="block3motion"} position and `direction`{:class="block3motion"} of your player. When the green flag is clicked, your player will go back to this starting position.
 >
-> ![Two Scratch cat costumes in costumes pane](images/cat_costumes.png)
->
-
-## Step 7
-
-> [!TASK]
->
-> Check that your costume is facing sideways or is easy to turn sideways later. A platformer player usually moves left and right, so a side-on character will be easier to animate.
-
-## Step 8
-
-> [!TASK]
->
-> On the **Code** tab, add blocks to set the starting position of your player. You can change this later
 > ```blocks3
 > when flag clicked
 > go to x: (-200) y: (-120)
 > point in direction (90)
 > ```
+
+
+## Step 7
+
+> [!TASK]
 >
-> The `point in direction (90)`{:class="block3motion"} block makes the **player** face right. If your **player** starts on the right side of the screen, change the direction to `-90` so it faces left.
+> Use the dial to choose which way your player faces when the game starts.
+> 
+> ![The direction dial in Scratch.](images/direction.gif){:width="450px"}
+
+
+## Step 8
+
+> [!TASK]
 >
-> > [!TIP]
-> >
-> > Start the **player** a small way above the floor so it drops down and lands on top. Do not place it directly on the floor: if it spawns too low and overlaps the floor sprite, even slightly, the **player** gets stuck inside it and the game breaks.
+> Change the `size`{:class="block3looks"} of your player to make it the right size for your game.
+>
+> ```blocks3
+> when flag clicked
+> go to x: (-200) y: (-120)
+> point in direction (90)
+> + set size to (70) %
+> ```
+
 
 ## Test
 
 > [!TASK]
 >
-> Check that the **player** sprite shows your new costume on the Stage. If it is too large, change the **Size** number in the sprite pane to make it smaller.
+> Check that the **player** sprite shows your new costume on the Stage.

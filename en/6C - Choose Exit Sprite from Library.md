@@ -8,7 +8,7 @@ Choose a sprite from the Scratch library and use it as the **Exit** - the way to
 >
 > Open the **Choose a Sprite** menu and select **Choose a Sprite**.
 >
-> ![The Choose a Sprite option in the sprite menu.](images/sprite-choose.png)
+> ![The Choose a Sprite option in the sprite menu.](images/sprite-choose.png){:width="300px"}
 
 ## Step 2
 
@@ -23,12 +23,14 @@ Choose a sprite from the Scratch library and use it as the **Exit** - the way to
 > [!TASK]
 >
 > In the sprite pane, change the sprite name to **Exit**. Use this exact spelling so later steps can refer to the same sprite.
+>
+> ![Naming the sprite Exit.](images/Exit.png){:width="450px"}
 
 ## Step 4
 
 > [!TASK]
 >
-> Select the **Exit** sprite and add a script that starts when the green flag is clicked.
+> Select the **Exit** sprite and add a green flag block.
 >
 > ```blocks3
 > +when green flag clicked

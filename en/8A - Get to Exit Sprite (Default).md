@@ -12,7 +12,7 @@ Make the player win when they touch the **Exit** sprite.
 
 > [!TASK]
 >
-> Add a `when green flag clicked` block.
+> Add a green flag block.
 >
 > ```blocks3
 > +when green flag clicked
@@ -63,7 +63,7 @@ Make the player win when they touch the **Exit** sprite.
 
 > [!TASK]
 >
-> Add a new script that starts when it receives the `win`{:class="block3events"} message.
+> Add a new `when I receive win`{:class="block3events"} block.
 >
 > Add `say 'You win!' for 2 seconds`{:class="block3looks"} and `stop all`{:class="block3control"}.
 >

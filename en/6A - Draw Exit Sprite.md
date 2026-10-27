@@ -8,7 +8,7 @@ Draw your own **Exit** sprite to show where the player should finish the level.
 >
 > Open the **Sprite** menu and select **Paint**.
 >
-> ![The Paint option in the Choose a Sprite menu.](images/sprite-paint.png)
+> ![The Paint option in the Choose a Sprite menu.](images/sprite-paint.png){:width="200px"}
 
 ## Step 2
 
@@ -23,12 +23,14 @@ Draw your own **Exit** sprite to show where the player should finish the level.
 > [!TASK]
 >
 > In the sprite pane, change the sprite name to **Exit**. Use this exact spelling so later steps can refer to the same sprite.
+>
+> ![Naming the sprite Exit.](images/Exit.png){:width="450px"}
 
 ## Step 4
 
 > [!TASK]
 >
-> Select the **Exit** sprite and add a script that starts when the green flag is clicked.
+> Select the **Exit** sprite and add a green flag block.
 >
 > ```blocks3
 > +when green flag clicked

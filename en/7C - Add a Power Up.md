@@ -20,7 +20,7 @@ Add a new sprite that gives the **player** extra speed or a higher jump when the
 
 > [!TASK]
 >
-> Select the **Power Up** sprite and add a `when green flag clicked`.
+> Select the **Power Up** sprite and add a `when green flag clicked` block.
 >
 > ```blocks3
 > +when green flag clicked
@@ -53,7 +53,7 @@ Add a new sprite that gives the **player** extra speed or a higher jump when the
 > show
 > go to [front v] layer
 > +forever
-> +  if <touching [player v]?> then
+> +  if <touching (player v)?> then
 > +  end
 > +end
 > ```
@@ -62,7 +62,7 @@ Add a new sprite that gives the **player** extra speed or a higher jump when the
 
 > [!TASK]
 >
-> Inside the `if`{:class="block3control"} block, broadcast `power up`{:class="block3events"}, hide the sprite, and stop this script.
+> Inside the `if`{:class="block3control"} block, broadcast `power up`{:class="block3events"}, hide the sprite, and add the `stop this script`{:class="block3control"} block.
 >
 > ```blocks3
 > when green flag clicked
@@ -70,8 +70,8 @@ Add a new sprite that gives the **player** extra speed or a higher jump when the
 > show
 > go to [front v] layer
 > forever
->   if <touching [player v]?> then
-> +    broadcast [power up v]
+>   if <touching (player v)?> then
+> +    broadcast (power up v)
 > +    hide
 > +    stop [this script v]
 >   end
@@ -82,9 +82,9 @@ Add a new sprite that gives the **player** extra speed or a higher jump when the
 
 > [!TASK]
 >
-> Select the **player** sprite and add a new script that starts when it receives the `power up`{:class="block3events"} message.
+> Select the **player** sprite and add a new `when I receive power up`{:class="block3events"} block.
 >
-> The movement uses `move speed`{:class="block3variables"} to control how fast the **player** moves and `jump strength`{:class="block3variables"} to control jump height.
+> The movement uses `move speed`{:class="block3variables"} to control how fast the **player** moves and `jump strength`{:class="block3variables"} to control jump height. These variables have already been added to the starter project.
 >
 > Choose one effect for your power-up. The effect will last for `5` seconds.
 >
@@ -101,14 +101,14 @@ Add a new sprite that gives the **player** extra speed or a higher jump when the
 
 > [!TASK]
 >
-> Or, if you would rather the power-up made the **player** jump higher, use this script instead of the one in Step 7 to increase `jump strength`{:class="block3variables"}:
+> Or, if you would rather the power-up made the **player** jump higher, use these blocks instead of the ones in Step 7 to increase `jump strength`{:class="block3variables"}:
 >
 > ```blocks3
 > +when I receive [power up v]
 > +change [jump strength v] by (4)
 > +wait (5) seconds
 > +change [jump strength v] by (-4)
-> ``` 
+> ```
 >
 > You could also do both! Put both `change`{:class="block3variables"} blocks before the `wait`{:class="block3control"} block, then change both variables back after the wait.
 

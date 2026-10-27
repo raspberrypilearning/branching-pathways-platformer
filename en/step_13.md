@@ -8,6 +8,8 @@ Make your **player** sprite jump.
 >
 > Select the **player** sprite and find your movement blocks.
 
+The starter project already includes the `y speed`{:class="block3variables"}, `jump strength`{:class="block3variables"}, `gravity`{:class="block3variables"} and `on ground`{:class="block3variables"} variables you will need.
+
 ## Step 2
 
 > [!TASK]
@@ -45,7 +47,7 @@ Make your **player** sprite jump.
 
 > [!TASK]
 >
-> If you don't want to enable double-jumps, then jumping should only work when the sprite is on the ground. There's an `on ground`{:class="blocks3variables"} to detect this.
+> If you don't want to enable double-jumps, then jumping should only work when the sprite is on the ground. There's an `on ground`{:class="block3variables"} to detect this.
 >
 > ```blocks3
 > + if <<key (space v) pressed?> and <(on ground) = (1)>> then

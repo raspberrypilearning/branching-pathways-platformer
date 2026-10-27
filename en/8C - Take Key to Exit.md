@@ -6,11 +6,21 @@ Make the player win only after collecting a key and reaching the **Exit**.
 
 > [!TASK]
 >
-> Make sure you have a variable called `has key`.
+> In the `variable`{:class="block3variables"} menu click **Make a Variable**.
 >
-> Set it up for all sprites so the Stage, **Key**, and **Exit** sprites can all use it.
+> ![The Make a Variable button in Scratch.](images/make-variable.png){:width="250px"}
 
 ## Step 2
+
+> [!TASK]
+>
+> Name the variable `has key`, and make it for all sprites so the Stage, **Key**, and **Exit** sprites can all use it.
+>
+> Use this exact name so the blocks below match.
+>
+> ![Naming the has key variable.](images/key-variable.png){:width="350px"}
+
+## Step 3
 
 > [!TASK]
 >
@@ -20,22 +30,22 @@ Make the player win only after collecting a key and reaching the **Exit**.
 >
 > ![An exit door sprite.](images/exit-door.png){:width="300px"}
 
-## Step 3
+## Step 4
 
 > [!TASK]
 >
-> Select the **Stage** and add a script that starts when the green flag is clicked.
+> Select the **Stage** and add a green flag block.
 >
 > ```blocks3
 > when green flag clicked
 > set [has key v] to [0]
 > ```
 
-## Step 4
+## Step 5
 
 > [!TASK]
 >
-> Select the **Key** sprite and add this script.
+> Select the **Key** sprite and add these blocks.
 >
 > ```blocks3
 > when green flag clicked
@@ -48,11 +58,11 @@ Make the player win only after collecting a key and reaching the **Exit**.
 > end
 > ```
 
-## Step 5
+## Step 6
 
 > [!TASK]
 >
-> Select the **Exit** sprite and add a script that checks when the player touches it.
+> Select the **Exit** sprite and add blocks that check when the player touches it.
 >
 > ```blocks3
 > when green flag clicked
@@ -62,7 +72,7 @@ Make the player win only after collecting a key and reaching the **Exit**.
 > end
 > ```
 
-## Step 6
+## Step 7
 
 > [!TASK]
 >
@@ -79,7 +89,7 @@ Make the player win only after collecting a key and reaching the **Exit**.
 > end
 > ```
 
-## Step 7
+## Step 8
 
 > [!TASK]
 >
@@ -100,15 +110,15 @@ Make the player win only after collecting a key and reaching the **Exit**.
 > end
 > ```
 
-## Step 8
+## Step 9
 
 > [!TASK]
 >
-> Add a new script that starts when it receives the `win`{:class="block3events"} message.
+> Add a new `when I receive win`{:class="block3events"} block.
 >
 > Add `say 'You win!' for 2 seconds`{:class="block3looks"} and `stop all`{:class="block3control"}.
 >
-> If you already added this win script in another route, just check this step off.
+> If you already added this win block in another route, just check this step off.
 >
 > ```blocks3
 > +when I receive [win v]
@@ -116,13 +126,13 @@ Make the player win only after collecting a key and reaching the **Exit**.
 > +stop [all v]
 > ```
 
-## Step 9
+## Step 10
 
 > [!TASK]
 >
 > Choose what should happen before `stop all`{:class="block3control"}.
 >
-> You can use the `when I receive win`{:class="block3events"} script to show a message, play a sound, change backdrop, switch costume, or trigger another sprite before the game stops.
+> You can use the `when I receive win`{:class="block3events"} block to show a message, play a sound, change backdrop, switch costume, or trigger another sprite before the game stops.
 >
 > Put any extra win blocks above `stop all`{:class="block3control"}.
 

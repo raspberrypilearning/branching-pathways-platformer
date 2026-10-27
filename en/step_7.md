@@ -1,7 +1,6 @@
 ## 3A - Add platforms to match your backdrop
 
-
-**NOTE - this needs a backdrop first**
+**You will need to add backdrop before starting this step**
 
 Draw platforms to match the parts of your backdrop that your **player** can stand on.
 
@@ -41,21 +40,15 @@ Draw platforms to match the parts of your backdrop that your **player** can stan
 
 > [!TASK]
 >
-> Add a green flag block.
->
-> ```blocks3
-> +when green flag clicked
-> ```
-
-## Step 6
-
-> [!TASK]
->
-> Add a block to show the **platform** sprite.
+> Add a `show`{:class="block3looks"} the **platform** sprite when the green flag is clicked.
 >
 > ```blocks3
 > when green flag clicked
-> +show
+> show
 > ```
 
-**Test:** Click the green flag and check that the **platform** sprite lines appear where the **player** can stand or jump to them.
+## Test
+
+> [!TASK]
+>
+> Click the green flag and check that the **platform** sprite lines appear where the **player** can stand or jump to them.

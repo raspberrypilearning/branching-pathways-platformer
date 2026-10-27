@@ -20,7 +20,7 @@ Upload an image and use it as the **Exit** sprite, the way to finish the level.
 >
 > Open the **Choose a Sprite** menu and select the **Upload Sprite** icon.
 >
-> ![The Choose a Sprite menu.](images/choose_sprite.png)
+> ![The Choose a Sprite menu.](images/choose_sprite.png){:width="300px"}
 
 ## Step 3
 
@@ -33,12 +33,14 @@ Upload an image and use it as the **Exit** sprite, the way to finish the level.
 > [!TASK]
 >
 > In the sprite pane, change the sprite name to **Exit**. Use this exact spelling so later steps can refer to the same sprite.
+>
+> ![Naming the sprite Exit.](images/Exit.png){:width="450px"}
 
 ## Step 5
 
 > [!TASK]
 >
-> Select the **Exit** sprite and add a script that starts when the green flag is clicked.
+> Select the **Exit** sprite and add a green flag block.
 >
 > ```blocks3
 > +when green flag clicked

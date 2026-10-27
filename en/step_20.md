@@ -84,7 +84,7 @@ Add a new sprite that gives the **player** extra speed or a higher jump when the
 >
 > Select the **player** sprite and add a new `when I receive power up`{:class="block3events"} block.
 >
-> The movement uses `move speed`{:class="block3variables"} to control how fast the **player** moves and `jump strength`{:class="block3variables"} to control jump height.
+> The movement uses `move speed`{:class="block3variables"} to control how fast the **player** moves and `jump strength`{:class="block3variables"} to control jump height. These variables have already been added to the starter project.
 >
 > Choose one effect for your power-up. The effect will last for `5` seconds.
 >
