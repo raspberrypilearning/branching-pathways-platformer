@@ -40,7 +40,7 @@ Draw platforms to match the parts of your backdrop that your **player** can stan
 
 > [!TASK]
 >
-> Add a `show`{:class="block3looks"} the **platform** sprite when the green flag is clicked.
+> Add a `show`{:class="block3looks"} block so the **platform** sprite shows when the green flag is clicked.
 >
 > ```blocks3
 > when green flag clicked

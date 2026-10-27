@@ -30,7 +30,7 @@ Switch costumes while the **player** moves so the character feels more alive.
 > end
 > ```
 >
-> Type your own delay into the `wait`{:class="block3control"} block (0.05 is a good place to start!)
+> Type your own delay into the `wait`{:class="block3control"} block (`0.05` is a good place to start!)
 
 ## Test
 

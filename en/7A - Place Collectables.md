@@ -26,7 +26,7 @@ Place collectables exactly where you want the player to find them.
 
 > [!TASK]
 >
-> Name the variable `Score`, and make it for all sprites.
+> Name the variable `Score`{:class="block3variables"}, and make it for all sprites.
 >
 > Use this exact name so the blocks below match.
 >
@@ -157,4 +157,4 @@ Place collectables exactly where you want the player to find them.
 >
 > Click the green flag and check that each collectable appears where you placed it.
 >
-> Touch each collectable and check that it disappears and adds `1` to `Score`.
+> Touch each collectable and check that it disappears and adds `1` to `Score`{:class="block3variables"}.

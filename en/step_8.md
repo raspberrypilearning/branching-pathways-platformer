@@ -59,7 +59,7 @@ Draw platforms so the **player** has places to stand and jump.
 > Add a green flag block.
 >
 > ```blocks3
-> +when green flag clicked
+> when green flag clicked
 > ```
 
 ## Step 7

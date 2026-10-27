@@ -68,7 +68,7 @@ To draw fancier platforms and montage other images, you can use an editor on you
 >
 > Delete the other costume.
 >
-> ![Deleting a costume in Scratch.](images/delete-costume.gif){:width="200px"}
+> ![Deleting a costume in Scratch.](images/external-delete.gif){:width="200px"}
 
 ## Step 10
 

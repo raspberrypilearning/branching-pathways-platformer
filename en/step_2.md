@@ -6,17 +6,17 @@
 >
 > Make sure you already have an image you want to use saved onto your computer.
 >
-> [!TIP]
->
-> You can try using one of these:
->
-> [![Sky platform backdrop preview](images/example-backdrop-sky-platforms.png){:width="300px"}](images/example-backdrop-sky-platforms.png)
->
-> [![Forest platform backdrop preview](images/example-backdrop-forest-platforms.png){:width="300px"}](images/example-backdrop-forest-platforms.png)
->
-> [![Vaporwave platform backdrop preview](images/vaporwave-backdrop.png){:width="300px"}](images/vaporwave-backdrop.png)
->
-> [![Magical valley platform backdrop preview](images/magical-valley-backdrop.png){:width="300px"}](images/magical-valley-backdrop.png)
+> > [!TIP]
+> >
+> > You can try using one of these:
+> >
+> > [![Sky platform backdrop preview](images/example-backdrop-sky-platforms.png){:width="300px"}](images/example-backdrop-sky-platforms.png)
+> >
+> > [![Forest platform backdrop preview](images/example-backdrop-forest-platforms.png){:width="300px"}](images/example-backdrop-forest-platforms.png)
+> >
+> > [![Vaporwave platform backdrop preview](images/vaporwave-backdrop.png){:width="300px"}](images/vaporwave-backdrop.png)
+> >
+> > [![Magical valley platform backdrop preview](images/magical-valley-backdrop.png){:width="300px"}](images/magical-valley-backdrop.png)
 
 ## Step 2
 

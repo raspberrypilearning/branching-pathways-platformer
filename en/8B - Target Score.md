@@ -1,6 +1,6 @@
 ## 8B - Target Score
 
-Make the player win when their **Score** reaches a target value.
+Make the player win when their `Score`{:class="block3variables"} reaches a target value.
 
 ## Step 1
 
@@ -12,13 +12,13 @@ Make the player win when their **Score** reaches a target value.
 >
 > > [!TIP]
 > >
-> > A target score only works if something makes `Score` go up as the player plays, and collectables are the perfect basis for a scoring system. If you have not added any yet, it is well worth going back to `Place Collectables` or `Random Collectables` and adding them first. Each collectable the player touches adds `1` to `Score`, giving this step a value to count towards.
+> > A target score only works if something makes `Score`{:class="block3variables"} go up as the player plays, and collectables are the perfect basis for a scoring system. If you have not added any yet, it is well worth going back to **Place Collectables** or **Random Collectables** and adding them first. Each collectable the player touches adds `1` to `Score`{:class="block3variables"}, giving this step a value to count towards.
 
 ## Step 2
 
 > [!TASK]
 >
-> Name the variable `Score`, and make it for all sprites.
+> Name the variable `Score`{:class="block3variables"}, and make it for all sprites.
 >
 > Use this exact name so the blocks below match.
 >
@@ -38,7 +38,7 @@ Make the player win when their **Score** reaches a target value.
 
 > [!TASK]
 >
-> Add a block to set `Score` to `0`.
+> Add a block to set `Score`{:class="block3variables"} to `0`.
 >
 > ```blocks3
 > when green flag clicked
@@ -62,9 +62,9 @@ Make the player win when their **Score** reaches a target value.
 
 > [!TASK]
 >
-> Inside the `forever`{:class="block3control"} loop, add an `if`{:class="block3control"} block that checks whether `Score` has reached your target value.
+> Inside the `forever`{:class="block3control"} loop, add an `if`{:class="block3control"} block that checks whether `Score`{:class="block3variables"} has reached your target value.
 >
-> This example checks whether `Score` is `5` or more.
+> This example checks whether `Score`{:class="block3variables"} is `5` or more.
 >
 > ```blocks3
 > when green flag clicked
@@ -121,6 +121,6 @@ Make the player win when their **Score** reaches a target value.
 
 > [!TASK]
 >
-> Play your game and increase `Score`.
+> Play your game and increase `Score`{:class="block3variables"}.
 >
-> Check that the `win`{:class="block3events"} message broadcasts when `Score` reaches the target value, the win message appears, and the game stops.
+> Check that the `win`{:class="block3events"} message broadcasts when `Score`{:class="block3variables"} reaches the target value, the win message appears, and the game stops.

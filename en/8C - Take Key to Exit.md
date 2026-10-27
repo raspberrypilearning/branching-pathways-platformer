@@ -14,7 +14,7 @@ Make the player win only after collecting a key and reaching the **Exit**.
 
 > [!TASK]
 >
-> Name the variable `has key`, and make it for all sprites so the Stage, **Key**, and **Exit** sprites can all use it.
+> Name the variable `has key`{:class="block3variables"}, and make it for all sprites so the Stage, **Key**, and **Exit** sprites can all use it.
 >
 > Use this exact name so the blocks below match.
 >
@@ -76,7 +76,7 @@ Make the player win only after collecting a key and reaching the **Exit**.
 
 > [!TASK]
 >
-> Inside the `if`{:class="block3control"} block, add another `if`{:class="block3control"} block to check whether `has key` is `1`.
+> Inside the `if`{:class="block3control"} block, add another `if`{:class="block3control"} block to check whether `has key`{:class="block3variables"} is `1`.
 >
 > ```blocks3
 > when green flag clicked
@@ -93,9 +93,9 @@ Make the player win only after collecting a key and reaching the **Exit**.
 
 > [!TASK]
 >
-> In the `has key = 1` part, add `broadcast win`{:class="block3events"}.
+> In the `has key`{:class="block3variables"} `=`{:class="block3operators"} `1` part, add `broadcast win`{:class="block3events"}.
 >
-> In the `else` part, add a `say 'Find the key!' for 2 seconds`{:class="block3looks"} block.
+> In the `else`{:class="block3control"} part, add a `say 'Find the key!' for 2 seconds`{:class="block3looks"} block.
 >
 > ```blocks3
 > when green flag clicked

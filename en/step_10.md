@@ -117,4 +117,4 @@ The starter project already includes the `x speed`{:class="block3variables"} and
 >
 > Click the green flag and use the arrow keys to move left and right.
 >
-> If the **player** moves too quickly or too slowly, change `move speed` in the starter setup script.
+> If the **player** moves too quickly or too slowly, change `move speed`{:class="block3variables"} in the starter setup script.

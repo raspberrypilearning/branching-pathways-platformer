@@ -24,7 +24,7 @@ Add background music to give your game atmosphere.
 >
 > > [!TIP]
 > >
-> > Clicking on the `loops` button will show files that will loop neatly.
+> > Clicking on the **loops** button will show files that will loop neatly.
 > >
 > > [![Scratch sound categories with Loops selected](images/sound_categories_loops.png){:width="450px"}](images/sound_categories_loops.png)
 

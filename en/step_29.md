@@ -14,7 +14,7 @@ Create a second platform layout and switch to it when the player meets the win c
 
 > [!TASK]
 >
-> Rename the costume for your current platform layout to `level 1`.
+> Rename the costume for your current platform layout to **level 1**.
 >
 > If you drew or uploaded your platforms earlier, use the costume that already matches your first level.
 
@@ -22,7 +22,7 @@ Create a second platform layout and switch to it when the player meets the win c
 
 > [!TASK]
 >
-> Duplicate the `level 1` costume and rename the copy `level 2`.
+> Duplicate the **level 1** costume and rename the copy **level 2**.
 >
 > This gives you a second platform costume that you can edit without changing the first level.
 
@@ -30,19 +30,19 @@ Create a second platform layout and switch to it when the player meets the win c
 
 > [!TASK]
 >
-> Edit the `level 2` costume to create a new platform layout.
+> Edit the **level 2** costume to create a new platform layout.
 >
 > Keep the top edges straight and horizontal where the **player** needs to stand.
 >
-> If you used hidden platform lines in `Add platforms to match your backdrop`, make the lines visible while you edit, then make them transparent again when you are finished.
+> If you used hidden platform lines in **Add platforms to match your backdrop**, make the lines visible while you edit, then make them transparent again when you are finished.
 
 ## Step 5
 
 > [!TASK]
 >
-> If you used `Add platforms to match your backdrop`, select the **Stage** and create a matching second backdrop.
+> If you used **Add platforms to match your backdrop**, select the **Stage** and create a matching second backdrop.
 >
-> Rename your current backdrop `level 1`, duplicate it, rename the copy `level 2`, and edit it so it matches the new platform layout.
+> Rename your current backdrop **level 1**, duplicate it, rename the copy **level 2**, and edit it so it matches the new platform layout.
 >
 > If you used `Draw foreground platforms` or `Draw Platforms in another editor`, you can skip this step.
 
@@ -77,7 +77,7 @@ Create a second platform layout and switch to it when the player meets the win c
 
 > [!TASK]
 >
-> If you made a `level 2` backdrop, add these blocks to the backdrop **Stage**:
+> If you made a **level 2** backdrop, add these blocks to the backdrop **Stage**:
 >
 > ```blocks3
 > when green flag clicked
@@ -105,6 +105,6 @@ Create a second platform layout and switch to it when the player meets the win c
 >
 > Click the green flag and check that your first platform layout appears.
 >
-> Meet your win condition and check that the `level 2` message broadcasts and switches the **platform** sprite to the second layout.
+> Meet your win condition and check that the **level 2** message broadcasts and switches the **platform** sprite to the second layout.
 >
-> If you made a second backdrop for `3A`, check that the **Stage** also switches to the `level 2` backdrop.
+> If you made a second backdrop for **Add platforms to match your backdrop**, check that the **Stage** also switches to the **level 2** backdrop.

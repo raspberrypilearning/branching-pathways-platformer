@@ -14,13 +14,13 @@ Add a new sprite that gives the **player** extra speed or a higher jump when the
 
 > [!TASK]
 >
-> Name the sprite `Power Up`.
+> Name the sprite **Power Up**.
 
 ## Step 3
 
 > [!TASK]
 >
-> Select the **Power Up** sprite and add a `when green flag clicked` block.
+> Select the **Power Up** sprite and add a green flag block.
 >
 > ```blocks3
 > +when green flag clicked
@@ -32,7 +32,7 @@ Add a new sprite that gives the **player** extra speed or a higher jump when the
 >
 > Add blocks to put the **Power Up** where you want it, show it, and move it in front of the level.
 >
-> Change the `x` and `y` values to place the power-up in your own level.
+> Change the `x`{:class="block3motion"} and `y`{:class="block3motion"} values to place the power-up in your own level.
 >
 > ```blocks3
 > when green flag clicked

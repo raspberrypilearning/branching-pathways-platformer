@@ -18,9 +18,9 @@ Make collectables drop from random positions and land on the **platform** sprite
 
 > [!TASK]
 >
-> You will need these variables: `last_x`, `min_distance`, and `position_ok`. The collectable sprite uses them to choose and space out the clones.
+> You will need these variables: `last_x`{:class="block3variables"}, `min_distance`{:class="block3variables"}, and `position_ok`{:class="block3variables"}. The collectable sprite uses them to choose and space out the clones.
 >
-> You will also need a `Score` variable if you do not have one already.
+> You will also need a `Score`{:class="block3variables"} variable if you do not have one already.
 
 ## Step 3
 
@@ -28,9 +28,9 @@ Make collectables drop from random positions and land on the **platform** sprite
 >
 > In the `variable`{:class="block3variables"} menu click **Make a Variable** to make each one:
 >
-> `last_x`, `min_distance`, `position_ok`, and `Score` if you do not have it.
+> `last_x`{:class="block3variables"}, `min_distance`{:class="block3variables"}, `position_ok`{:class="block3variables"}, and `Score`{:class="block3variables"} if you do not have it.
 >
-> Make `Score` for all sprites.
+> Make `Score`{:class="block3variables"} for all sprites.
 >
 > Use these exact names so the blocks below match.
 >
@@ -50,7 +50,7 @@ Make collectables drop from random positions and land on the **platform** sprite
 
 > [!TASK]
 >
-> Hide the original collectable sprite, reset `Score`, and set up the variables that space out the collectables.
+> Hide the original collectable sprite, reset `Score`{:class="block3variables"}, and set up the variables that space out the collectables.
 >
 > The hidden original sprite will move to random x and y positions and create visible clones.
 >
@@ -196,7 +196,7 @@ Make collectables drop from random positions and land on the **platform** sprite
 
 > [!TASK]
 >
-> After the `repeat until`{:class="block3control"} loop, store the chosen x position as `last_x` and create a clone there.
+> After the `repeat until`{:class="block3control"} loop, store the chosen x position as `last_x`{:class="block3variables"} and create a clone there.
 >
 > ```blocks3
 > when green flag clicked
@@ -295,4 +295,4 @@ Make collectables drop from random positions and land on the **platform** sprite
 >
 > Check that each collectable starts in the air, drops, and stops when it touches the **platform** sprite.
 >
-> Touch a collectable and check that it disappears and adds `1` to `Score`.
+> Touch a collectable and check that it disappears and adds `1` to `Score`{:class="block3variables"}.

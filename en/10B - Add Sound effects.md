@@ -28,7 +28,7 @@ Add sound effects to make moments such as jumping, collecting items, winning, or
 
 > [!TASK]
 >
-> Add a sound to the collectable blocks so it plays when the player touches it. Use the same example blocks from 8B and add a `play sound [effect v] until done`{:class="block3sounds"} block:
+> Add a sound to the collectable blocks so it plays when the player touches it. Use the same example blocks from 8B and add a `play sound until done`{:class="block3sounds"} block:
 >
 > ```blocks3
 > when green flag clicked
@@ -41,10 +41,10 @@ Add sound effects to make moments such as jumping, collecting items, winning, or
 > 	end
 > end
 > ```
-
-> [!TIP]
 >
-> `play sound ... until done`{:class="block3sounds"} waits for the sound to finish before continuing, while `start sound ...`{:class="block3sounds"} plays the sound in the background and continues following the code immediately.
+> > [!TIP]
+> >
+> > `play sound until done`{:class="block3sounds"} waits for the sound to finish before continuing, while `start sound`{:class="block3sounds"} plays the sound in the background and continues following the code immediately.
 
 ## Test
 
